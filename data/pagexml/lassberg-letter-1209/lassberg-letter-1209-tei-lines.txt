@@ -1,0 +1,148 @@
+<pb n="1" corresp="../pagexml/lassberg-letter-1209/lassberg-letter-1209-1.xml"/>
+<lb xml:id="lassberg-letter-1209-1-1" n="1" corresp="tr_1_tl_1"/>Herr Baron!
+<lb xml:id="lassberg-letter-1209-1-2" n="2" corresp="tr_1_tl_2"/>Von Ihrer Güte erbitte ich dafür Verzeihung, dass ich erst jetzt, Mitte Decembers, auf Ihren
+<lb xml:id="lassberg-letter-1209-1-3" n="3" corresp="tr_1_tl_3"/>Brief vom May antworte und herzlich für die mitgesandten Geschenke danke. Es gleich
+<lb xml:id="lassberg-letter-1209-1-4" n="4" corresp="tr_1_tl_4"/>damals zu thun, war mir bei der Freude über Ihre gütige Aufmerksamkeit für mich un
+<lb break="no" xml:id="lassberg-letter-1209-1-5" n="5" corresp="tr_1_tl_5"/>möglich, ich konnte keine Worte finden. Dann kamen allerhand verdriessliche Geschäfte, die
+<lb xml:id="lassberg-letter-1209-1-6" n="6" corresp="tr_1_tl_6"/>mir die Lust an Allem raubten. Ich wollte nach Polen gehn für länger, vielleicht für immer;
+<lb xml:id="lassberg-letter-1209-1-7" n="7" corresp="tr_1_tl_7"/>zum Glück ward nichts daraus. Mehrere codices hatte ich auch ab zu schreiben. Ich konnte
+<lb xml:id="lassberg-letter-1209-1-8" n="8" corresp="tr_1_tl_8"/>kaum zu mir selbst kommen. Jetzt endlich, um mich nicht länger zu schaemen, benutze ich
+<lb xml:id="lassberg-letter-1209-1-9" n="9" corresp="tr_1_tl_9"/>H. Prof. Lachmanns Güte und schreibe Ihnen - eben wie herzlich ich Ihnen danke, wie sehr
+<lb xml:id="lassberg-letter-1209-1-10" n="10" corresp="tr_1_tl_10"/>Sie mich erfreut haben. Ich hoffe, Sie haben durch Froehlich oder A. L. Follen noch einige
+<lb xml:id="lassberg-letter-1209-1-11" n="11" corresp="tr_1_tl_11"/>andre halbe und ganze Bogen erhalten. Gern hätte ich Ihnen auch noch zwey groessere,
+<lb xml:id="lassberg-letter-1209-1-12" n="12" corresp="tr_1_tl_12"/>wenn gleich an sich kleine Bücher von mir geschickt, wenn mich nicht die Unsicherheit der Buch
+<lb break="no" xml:id="lassberg-letter-1209-1-13" n="13" corresp="tr_1_tl_13"/>händler und die Kostspieligkeit des Postweges abgeschreckt hätten. Zuerst unter dem Titel, "Spiri
+<lb break="no" xml:id="lassberg-letter-1209-1-14" n="14" corresp="tr_1_tl_14"/>talia theotisca" eine Sammlung von Predigtbruchstücken des 12-15 Jhdts (Bresslau, Grass);
+<lb xml:id="lassberg-letter-1209-1-15" n="15" corresp="tr_1_tl_15"/>dann eine Ausgabe des Wessobrunner Gebetes u. der Wessobr: Glossen (gegen Massmann), Berlin,
+<lb xml:id="lassberg-letter-1209-1-16" n="16" corresp="tr_1_tl_16"/>Schmidtsche Buchhdlg. Statt dessen lassen Sie mich Ihnen einige mhd. Lieder, selbst gemachte,
+<lb xml:id="lassberg-letter-1209-1-17" n="17" corresp="tr_1_tl_17"/>abschreiben; es wäre mir lieb, hätten Sie sie nicht ungern gelesen.
+<lb xml:id="lassberg-letter-1209-1-18" n="18" corresp="line_1734441829453_5632"/>I. 1. „Neumuoz, ich von dir scheiden.
+<lb xml:id="lassberg-letter-1209-1-19" n="19" corresp="tr_1_tl_22"/>owê der herzenôt!
+<lb xml:id="lassberg-letter-1209-1-20" n="20" corresp="tr_1_tl_26"/>und sol ich lange verre sîn
+<lb xml:id="lassberg-letter-1209-1-21" n="21" corresp="tr_1_tl_27"/>in sorgen lig ich tôt.
+<lb xml:id="lassberg-letter-1209-1-22" n="22" corresp="line_1734441831594_5637"/>2. Si want ir wîzen hende.
+<lb xml:id="lassberg-letter-1209-1-23" n="23" corresp="tr_1_tl_21"/>neinâ vil lieber man!
+<lb xml:id="lassberg-letter-1209-1-24" n="24" corresp="tr_1_tl_25"/>owê mich wê der leide,
+<lb xml:id="lassberg-letter-1209-1-25" n="25" corresp="line_1734441833809_5642"/>und wellest mich nu lân.
+<lb xml:id="lassberg-letter-1209-1-26" n="26" corresp="line_1734441836576_5647"/>3. "Ich bin dir ie getrieuwe,
+<lb xml:id="lassberg-letter-1209-1-27" n="27" corresp="tr_1_tl_20"/>in meine niuwan dich
+<lb xml:id="lassberg-letter-1209-1-28" n="28" corresp="tr_1_tl_24"/>vil herzeliebin vrouwe.
+<lb xml:id="lassberg-letter-1209-1-29" n="29" corresp="line_1734441839922_5652"/>ne tuoz ouch umbe mich!
+<lb xml:id="lassberg-letter-1209-1-30" n="30" corresp="line_1734441842683_5657"/>4. Nun welle got von himele
+<lb xml:id="lassberg-letter-1209-1-31" n="31" corresp="tr_1_tl_19"/>deich breche mînen eit!
+<lb xml:id="lassberg-letter-1209-1-32" n="32" corresp="tr_1_tl_23"/>nâch küssen weinden beidin:
+<lb xml:id="lassberg-letter-1209-1-33" n="33" corresp="line_1734441845286_5662"/>ir scheiden was in leit.
+<pb n="2" corresp="../pagexml/lassberg-letter-1209/lassberg-letter-1209-2.xml"/>
+<lb xml:id="lassberg-letter-1209-2-1" n="1" corresp="line_1734441896374_5742"/>5. Dô zôch si ab ir hende
+<lb xml:id="lassberg-letter-1209-2-2" n="2" corresp="line_1734441898046_5747"/>ein guldîn vingerlîn.
+<lb xml:id="lassberg-letter-1209-2-3" n="3" corresp="line_1734441900055_5752"/>ir ougen weinden heize.
+<lb xml:id="lassberg-letter-1209-2-4" n="4" corresp="line_1734441901894_5757"/>dâbî gedenke mîn!
+<lb xml:id="lassberg-letter-1209-2-5" n="5" corresp="line_1734441903816_5762"/>6. Adê adê vil lieber man!
+<lb xml:id="lassberg-letter-1209-2-6" n="6" corresp="line_1734441905538_5767"/>mîn herzelich var wol.
+<lb xml:id="lassberg-letter-1209-2-7" n="7" corresp="line_1734441907530_5772"/>aû ambeschen reit er hin.
+<lb xml:id="lassberg-letter-1209-2-8" n="8" corresp="line_1734441909559_5777"/>sîn lîp was kumbers vol.
+<lb xml:id="lassberg-letter-1209-2-9" n="9" corresp="tr_1_tl_6"/>II. 1. Sol ich lachen? sol ich weinen
+<lb xml:id="lassberg-letter-1209-2-10" n="10" corresp="tr_1_tl_8"/>vrouve, zwâr - in weiz es nicht.
+<lb xml:id="lassberg-letter-1209-2-11" n="11" corresp="tr_1_tl_9"/>wîbe minnen, wîbe meinen.
+<lb xml:id="lassberg-letter-1209-2-12" n="12" corresp="tr_1_tl_11"/>dem diz liebe leit geschiht.
+<lb xml:id="lassberg-letter-1209-2-13" n="13" corresp="tr_1_tl_13"/>Zwâre, der enweiz des nicht,
+<lb xml:id="lassberg-letter-1209-2-14" n="14" corresp="tr_1_tl_15"/>sül er lachen sül er weinen
+<lb xml:id="lassberg-letter-1209-2-15" n="15" corresp="tr_1_tl_18"/>2. Michel liebe Michel leide
+<lb xml:id="lassberg-letter-1209-2-16" n="16" corresp="tr_1_tl_20"/>daz ist ein als wârez wort.
+<lb xml:id="lassberg-letter-1209-2-17" n="17" corresp="tr_1_tl_22"/>Wil er einez, habe beide
+<lb xml:id="lassberg-letter-1209-2-18" n="18" corresp="tr_1_tl_24"/>wil er hie, so sê ouch dort.
+<lb xml:id="lassberg-letter-1209-2-19" n="19" corresp="tr_1_tl_25"/>Ez ist ein als wârez wort:
+<lb xml:id="lassberg-letter-1209-2-20" n="20" corresp="tr_1_tl_27"/>michel liebe Michel leide.
+<lb xml:id="lassberg-letter-1209-2-21" n="21" corresp="tr_1_tl_30"/>3. Ich was vrô unt vrîs muotes;
+<lb xml:id="lassberg-letter-1209-2-22" n="22" corresp="tr_1_tl_32"/>nû muoz ich dîn eigen sîn.
+<lb xml:id="lassberg-letter-1209-2-23" n="23" corresp="tr_1_tl_34"/>Eigen lîbes unde guotes
+<lb xml:id="lassberg-letter-1209-2-24" n="24" corresp="tr_1_tl_36"/>herzeliebez vrouwelin.
+<lb xml:id="lassberg-letter-1209-2-25" n="25" corresp="tr_1_tl_38"/>Mac ich je dîn eigen sîn.
+<lb xml:id="lassberg-letter-1209-2-26" n="26" corresp="tr_1_tl_40"/>ich bin vrô unt vries mustes
+<lb xml:id="lassberg-letter-1209-2-27" n="27" corresp="tr_1_tl_42"/>III. 1. Al min leben muoz mir werden,
+<lb xml:id="lassberg-letter-1209-2-28" n="28" corresp="tr_1_tl_44"/>sît ich, magt, dich hân gesehen.
+<lb xml:id="lassberg-letter-1209-2-29" n="29" corresp="tr_1_tl_46"/>Schoenest wîp ob al der erden!
+<lb xml:id="lassberg-letter-1209-2-30" n="30" corresp="tr_1_tl_48"/>heiles vil muoz ich mir jehen
+<lb xml:id="lassberg-letter-1209-2-31" n="31" corresp="tr_1_tl_50"/>Nahtegal sô suoze sanc
+<lb xml:id="lassberg-letter-1209-2-32" n="32" corresp="tr_1_tl_51"/>schône lûhte rôsebluome:
+<lb xml:id="lassberg-letter-1209-2-33" n="33" corresp="tr_1_tl_54"/>deist ein saelec aneganc.
+<lb xml:id="lassberg-letter-1209-2-34" n="34" corresp="tr_1_tl_56"/>2. Sol ich, vrouwe, dir versmâhen
+<lb xml:id="lassberg-letter-1209-2-35" n="35" corresp="tr_1_tl_58"/>so hât glücke mich getragen,
+<lb xml:id="lassberg-letter-1209-2-36" n="36" corresp="tr_1_tl_60"/>Sol ich iestunt dir unnâhen
+<lb xml:id="lassberg-letter-1209-2-37" n="37" corresp="tr_1_tl_62"/>sô hât mîr mîn sin gelogen. -
+<lb xml:id="lassberg-letter-1209-2-38" n="38" corresp="tr_1_tl_5"/>sô bin ich der vroude vrî
+<lb xml:id="lassberg-letter-1209-2-39" n="39" corresp="tr_1_tl_7"/>sinc dû mir ein süezer maere
+<lb xml:id="lassberg-letter-1209-2-40" n="40" corresp="tr_1_tl_10"/>nahtegal am rôsenzwî!
+<lb xml:id="lassberg-letter-1209-2-41" n="41" corresp="tr_1_tl_12"/>3. Nahtegal, daz singen dîne
+<lb xml:id="lassberg-letter-1209-2-42" n="42" corresp="tr_1_tl_14"/>hât mich nû gevangen gar.
+<lb xml:id="lassberg-letter-1209-2-43" n="43" corresp="tr_1_tl_16"/>Rôse, süeziu rôse mîne,
+<lb xml:id="lassberg-letter-1209-2-44" n="44" corresp="tr_1_tl_17"/>wan dîn einer nim ich war.
+<lb xml:id="lassberg-letter-1209-2-45" n="45" corresp="tr_1_tl_19"/>Wol mich wol der herzenôt!-
+<lb xml:id="lassberg-letter-1209-2-46" n="46" corresp="tr_1_tl_21"/>vrouwe lâ mich bî dit bliben;
+<lb xml:id="lassberg-letter-1209-2-47" n="47" corresp="tr_1_tl_23"/>âne dich sô bin ich tôt.
+<lb xml:id="lassberg-letter-1209-2-48" n="48" corresp="line_1734442437676_5966"/>IV. 1. Lieber vogel guoter
+<lb xml:id="lassberg-letter-1209-2-49" n="49" corresp="tr_1_tl_28"/>heb dich ûf unde vliuc von dan
+<lb xml:id="lassberg-letter-1209-2-50" n="50" corresp="tr_1_tl_29"/>Über walt und ouwen
+<lb xml:id="lassberg-letter-1209-2-51" n="51" corresp="tr_1_tl_31"/>hin zuo der vrouwen wolgetân
+<lb xml:id="lassberg-letter-1209-2-52" n="52" corresp="tr_1_tl_33"/>sô stât an der Zinnen
+<lb xml:id="lassberg-letter-1209-2-53" n="53" corresp="tr_1_tl_35"/>liep mîn magedîn.
+<lb xml:id="lassberg-letter-1209-2-54" n="54" corresp="tr_1_tl_37"/>wartend al mit sinnen
+<lb xml:id="lassberg-letter-1209-2-55" n="55" corresp="tr_1_tl_39"/>an die strâzen mîn.
+<lb xml:id="lassberg-letter-1209-2-56" n="56" corresp="tr_1_tl_41"/>2. So vâlt dîn gevidere.
+<lb xml:id="lassberg-letter-1209-2-57" n="57" corresp="tr_1_tl_43"/>deich dir je müeze holder sîn!
+<lb xml:id="lassberg-letter-1209-2-58" n="58" corresp="tr_1_tl_45"/>Zwo der reinen megede
+<lb xml:id="lassberg-letter-1209-2-59" n="59" corresp="tr_1_tl_47"/>wis dû der liebe bote mîn.
+<lb xml:id="lassberg-letter-1209-2-60" n="60" corresp="tr_1_tl_49"/>Unde wirp den maere
+<lb xml:id="lassberg-letter-1209-2-61" n="61" corresp="tr_1_tl_52"/>sit ich selb enmac.
+<lb xml:id="lassberg-letter-1209-2-62" n="62" corresp="tr_1_tl_53"/>daz ist mir vil swaere
+<lb xml:id="lassberg-letter-1209-2-63" n="63" corresp="tr_1_tl_55"/>und ein leider tac.
+<lb xml:id="lassberg-letter-1209-2-64" n="64" corresp="tr_1_tl_57"/>3. Sinc du mîner vrouwen
+<lb xml:id="lassberg-letter-1209-2-65" n="65" corresp="tr_1_tl_59"/>mit sinnen also süez ein sanc.
+<lb xml:id="lassberg-letter-1209-2-66" n="66" corresp="tr_1_tl_61"/>Nâch ir stât mit trûren
+<lb xml:id="lassberg-letter-1209-2-67" n="67" corresp="line_1734442434894_5959"/>mîn herz und aller mîn gedanc.
+<lb xml:id="lassberg-letter-1209-2-68" n="68" corresp="tr_2_tl_1"/>"Abent unt den morgen
+<lb xml:id="lassberg-letter-1209-2-69" n="69" corresp="tr_2_tl_2"/>hât er dîn gedâht;
+<lb xml:id="lassberg-letter-1209-2-70" n="70" corresp="tr_2_tl_3"/>al die naht mit sorgen
+<lb xml:id="lassberg-letter-1209-2-71" n="71" corresp="tr_2_tl_4"/>hât er sus verbrâht."
+<lb xml:id="lassberg-letter-1209-2-72" n="72" corresp="line_1734442434895_5960"/>V. 1. Ist dir mîn staetez singen swaere.
+<lb xml:id="lassberg-letter-1209-2-73" n="73" corresp="tr_2_tl_6"/>vil liebin reiniu vrouwe zart
+<lb xml:id="lassberg-letter-1209-2-74" n="74" corresp="tr_2_tl_7"/>so sprich zuo mir ein liebez maere;
+<lb xml:id="lassberg-letter-1209-2-75" n="75" corresp="tr_2_tl_8"/>und ist in liep mîn mit gekart.
+<lb xml:id="lassberg-letter-1209-2-76" n="76" corresp="tr_2_tl_9"/>So schaff ich, daz min zunge dage:
+<lb xml:id="lassberg-letter-1209-2-77" n="77" corresp="tr_2_tl_10"/>in weiz ouch danne, waz ich klage.
+<lb xml:id="lassberg-letter-1209-2-78" n="78" corresp="tr_2_tl_11"/>2. Ez singent nahtegaln als lange
+<lb xml:id="lassberg-letter-1209-2-79" n="79" corresp="tr_2_tl_12"/>unz daz in leit volendet ist
+<lb xml:id="lassberg-letter-1209-2-80" n="80" corresp="tr_2_tl_13"/>Und swîgent mêre mit ir sange
+<lb xml:id="lassberg-letter-1209-2-81" n="81" corresp="tr_2_tl_14"/>ir leit daz birt ir süezen list.
+<lb xml:id="lassberg-letter-1209-2-82" n="82" corresp="tr_2_tl_15"/>Ine sanc nie nahtegalen sanc;
+<lb xml:id="lassberg-letter-1209-2-83" n="83" corresp="tr_2_tl_16"/>doch was ez leit, dâ von ich sanc.Und swîgent mêre mit ir sange
+<lb xml:id="lassberg-letter-1209-2-84" n="84" corresp="tr_2_tl_17"/>3. Sich, vrouw, ist der mîn liet unmaere,
+<lb xml:id="lassberg-letter-1209-2-85" n="85" corresp="tr_2_tl_18"/>dun wendest liet, dun wendest leit,
+<lb xml:id="lassberg-letter-1209-2-86" n="86" corresp="tr_2_tl_19"/>Den site hânt et sene daere:
+<lb xml:id="lassberg-letter-1209-2-87" n="87" corresp="tr_2_tl_20"/>ir kumber ist nie ungekleit
+<lb xml:id="lassberg-letter-1209-2-88" n="88" corresp="tr_2_tl_21"/>Du guote, meine dû ouch mich
+<lb xml:id="lassberg-letter-1209-2-89" n="89" corresp="tr_2_tl_22"/>son sing ich, wan ich küsse dich.
+<lb xml:id="lassberg-letter-1209-2-90" n="90" corresp="tr_2_tl_23"/>VI. 1. Dem swanen bin ich wol gelîch:
+<lb xml:id="lassberg-letter-1209-2-91" n="91" corresp="tr_2_tl_24"/>der singet, sô er sterben sol.
+<lb xml:id="lassberg-letter-1209-2-92" n="92" corresp="tr_2_tl_25"/>Mîn leben ist so kumberlich:
+<lb xml:id="lassberg-letter-1209-2-93" n="93" corresp="tr_2_tl_26"/>ich zellez zuo dem tôde wol.
+<lb xml:id="lassberg-letter-1209-2-94" n="94" corresp="tr_2_tl_27"/>Zer werlde bin ich gar ein zage:
+<lb xml:id="lassberg-letter-1209-2-95" n="95" corresp="tr_2_tl_28"/>ich leb unt stirb iedoch von Tage zu tage.
+<lb xml:id="lassberg-letter-1209-2-96" n="96" corresp="tr_2_tl_29"/>2. Ein wîp, diu liebet mir den tôt.
+<lb xml:id="lassberg-letter-1209-2-97" n="97" corresp="tr_2_tl_30"/>ein wîp, diu leidet mir min leben.
+<lb xml:id="lassberg-letter-1209-2-98" n="98" corresp="tr_2_tl_31"/>E was ich stump; wan disiu nôt,
+<lb xml:id="lassberg-letter-1209-2-99" n="99" corresp="tr_2_tl_32"/>diu hât mir sanges vil gegeben.
+<lb xml:id="lassberg-letter-1209-2-100" n="100" corresp="tr_2_tl_33"/>sus lâz ich singend al min wê
+<lb xml:id="lassberg-letter-1209-2-101" n="101" corresp="tr_2_tl_34"/>adê du toetaerim adê adê!
+<pb n="3" corresp="../pagexml/lassberg-letter-1209/lassberg-letter-1209-3.xml"/>
+<lb xml:id="lassberg-letter-1209-3-1" n="1" corresp="tr_1_tl_1"/>3. Waz hilfet mich mîns liedes klage?
+<lb xml:id="lassberg-letter-1209-3-2" n="2" corresp="tr_1_tl_2"/>dui guote wil sîn nicht verstân:
+<lb xml:id="lassberg-letter-1209-3-3" n="3" corresp="tr_1_tl_3"/>Sin hoeret niht, swie vil ich sage,
+<lb xml:id="lassberg-letter-1209-3-4" n="4" corresp="tr_1_tl_4"/>noch troestet, wie si troesten kann
+<lb xml:id="lassberg-letter-1209-3-5" n="5" corresp="tr_1_tl_5"/>Wan sterbest vroude Kranker lîp!
+<lb xml:id="lassberg-letter-1209-3-6" n="6" corresp="tr_1_tl_6"/>der mort ist dîn: nu klag et statez wîp!
+<lb xml:id="lassberg-letter-1209-3-7" n="7" corresp="tr_1_tl_7"/>Doch ich habe Sie schon lange genug gelangweilt um meinen Brief hier schliessen. Ich wünsche mir
+<lb xml:id="lassberg-letter-1209-3-8" n="8" corresp="tr_1_tl_8"/>nichts mehr, als Sie auf Eppishausen besuchen zu können. Leben Sie wohl und erhalten Sie auch ferner
+<lb xml:id="lassberg-letter-1209-3-9" n="9" corresp="tr_1_tl_9"/>Ihr Wohlwollen Ihrem
+<lb xml:id="lassberg-letter-1209-3-10" n="10" corresp="tr_1_tl_11"/>Wilhelm Wackernagel.
+<lb xml:id="lassberg-letter-1209-3-11" n="11" corresp="tr_1_tl_10"/>Berlin. 14/12/27.

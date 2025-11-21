@@ -1,0 +1,2124 @@
+{
+  "letter_id": "1209",
+  "title": "Letter 1209 — done_lassberg-letter-1209",
+  "entities": [
+    {
+      "text": "Baron",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 5,
+        "end": 10
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_base",
+            "text": "Baron",
+            "label": "PER",
+            "score": 0.9998544454574585,
+            "start": 5,
+            "end": 10
+          },
+          {
+            "model": "hf_default",
+            "text": "Baron",
+            "label": "PER",
+            "score": 0.9247485995292664,
+            "start": 5,
+            "end": 10
+          }
+        ],
+        "vote_count": 2
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0373",
+          "ref": "https://d-nb.info/gnd/118778862"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0373",
+              "label": "Baron",
+              "score": 100.0,
+              "ref": "https://d-nb.info/gnd/118778862",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0462",
+              "label": "Otto von Bayern",
+              "score": 50.0,
+              "ref": "https://d-nb.info/gnd/121486338",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0645",
+              "label": "Egen von Bamberg",
+              "score": 47.61904761904762,
+              "ref": "https://d-nb.info/gnd/118681680",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0028",
+              "label": "August von Bayer",
+              "score": 47.61904761904762,
+              "ref": "https://d-nb.info/gnd/116096926",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0239",
+              "label": "Joseph von Bayer",
+              "score": 47.61904761904762,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0031",
+              "label": "Bachmann",
+              "score": 46.15384615384615,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0475",
+              "label": "Berthold",
+              "score": 46.15384615384615,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0517",
+              "label": "Ulrich von Bodman",
+              "score": 45.45454545454545,
+              "ref": "",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Herr Baron",
+      "target_label": "PER",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 0,
+        "end": 10
+      },
+      "evidence": {
+        "mentions": [],
+        "vote_count": 0
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0373",
+          "ref": "https://d-nb.info/gnd/118778862"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0373",
+              "label": "Baron",
+              "score": 100.0,
+              "ref": "https://d-nb.info/gnd/118778862",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0319",
+              "label": "Peter Bion",
+              "score": 60.0,
+              "ref": "https://d-nb.info/gnd/135548888",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0466",
+              "label": "Herr v. String",
+              "score": 58.333333333333336,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0052",
+              "label": "Carl Banger",
+              "score": 57.142857142857146,
+              "ref": "https://d-nb.info/gnd/123776341",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0465",
+              "label": "Herr Pfr. Bischof",
+              "score": 57.142857142857146,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0469",
+              "label": "Rosenlächer",
+              "score": 57.142857142857146,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0478",
+              "label": "Anton Henne",
+              "score": 57.142857142857146,
+              "ref": "https://d-nb.info/gnd/118886649",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0454",
+              "label": "Thierry Ruinart",
+              "score": 56.0,
+              "ref": "https://d-nb.info/gnd/116702826",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "May",
+      "target_label": "TIME",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 115,
+        "end": 118
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_base",
+            "text": "May",
+            "label": "PER",
+            "score": 0.999011754989624,
+            "start": 115,
+            "end": 118
+          },
+          {
+            "model": "hf_default",
+            "text": "May",
+            "label": "PER",
+            "score": 0.8368759155273438,
+            "start": 115,
+            "end": 118
+          }
+        ],
+        "vote_count": 2
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": []
+        }
+      }
+    },
+    {
+      "text": "Polen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 410,
+        "end": 415
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Polen",
+            "label": "loc",
+            "score": 0.9756,
+            "start": 410,
+            "end": 415
+          },
+          {
+            "model": "flair_base",
+            "text": "Polen",
+            "label": "LOC",
+            "score": 0.9999743700027466,
+            "start": 410,
+            "end": 415
+          },
+          {
+            "model": "flair_large",
+            "text": "Polen",
+            "label": "LOC",
+            "score": 0.9999933242797852,
+            "start": 410,
+            "end": 415
+          },
+          {
+            "model": "hf_default",
+            "text": "Polen",
+            "label": "LOC",
+            "score": 0.9957910776138306,
+            "start": 410,
+            "end": 415
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "place",
+          "xml_id": "lassberg-place-0296",
+          "ref": "https://www.wikidata.org/wiki/Q36"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-place-0296",
+              "label": "Polen",
+              "score": 100.0,
+              "ref": "https://www.wikidata.org/wiki/Q36",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0118",
+              "label": "Pilsen",
+              "score": 72.72727272727272,
+              "ref": "https://www.wikidata.org/wiki/Q43453",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0081",
+              "label": "Koblenz",
+              "score": 66.66666666666666,
+              "ref": "https://www.wikidata.org/wiki/Q3104",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0111",
+              "label": "Ofen",
+              "score": 66.66666666666666,
+              "ref": "https://www.wikidata.org/wiki/Q193478",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0264",
+              "label": "Alpen",
+              "score": 60.0,
+              "ref": "https://www.wikidata.org/wiki/Q1286",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0028",
+              "label": "Bozen",
+              "score": 60.0,
+              "ref": "https://www.wikidata.org/wiki/Q6526",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0303",
+              "label": "Leine",
+              "score": 60.0,
+              "ref": "https://www.wikidata.org/wiki/Q161051",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0093",
+              "label": "Luzern",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q4191",
+              "kind": "place"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "H. Prof. Lachmanns",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 632,
+        "end": 650
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. Prof. Lachmanns",
+            "label": "pers",
+            "score": 0.9716,
+            "start": 632,
+            "end": 650
+          },
+          {
+            "model": "flair_base",
+            "text": "Lachmanns",
+            "label": "PER",
+            "score": 0.9999935626983643,
+            "start": 641,
+            "end": 650
+          },
+          {
+            "model": "flair_large",
+            "text": "Lachmanns",
+            "label": "PER",
+            "score": 0.9999774694442749,
+            "start": 641,
+            "end": 650
+          },
+          {
+            "model": "hf_default",
+            "text": "Lac",
+            "label": "PER",
+            "score": 0.8413209319114685,
+            "start": 641,
+            "end": 644
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0260",
+          "ref": "https://d-nb.info/gnd/118568558"
+        },
+        "decision": {
+          "method": "llm",
+          "score": 0.9,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0260",
+              "label": "Karl Lachmann",
+              "score": 58.064516129032256,
+              "ref": "https://d-nb.info/gnd/118568558",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0031",
+              "label": "Bachmann",
+              "score": 53.84615384615385,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0659",
+              "label": "Hans von Bühel",
+              "score": 50.0,
+              "ref": "https://d-nb.info/gnd/119011697",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0540",
+              "label": "Johannes Pupikofer",
+              "score": 50.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0652",
+              "label": "Hugo von Langenstein",
+              "score": 47.36842105263158,
+              "ref": "https://d-nb.info/gnd/118775251",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0637",
+              "label": "Hermann von Fritzlar",
+              "score": 47.36842105263158,
+              "ref": "https://d-nb.info/gnd/118774107",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0382",
+              "label": "Hartmann von Aue",
+              "score": 47.05882352941177,
+              "ref": "https://d-nb.info/gnd/118546228",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0440",
+              "label": "Stumpf, Johannes",
+              "score": 47.05882352941177,
+              "ref": "https://d-nb.info/gnd/118757555",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Froehlich",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 772,
+        "end": 781
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_base",
+            "text": "Froehlich",
+            "label": "PER",
+            "score": 0.8293212652206421,
+            "start": 772,
+            "end": 781
+          },
+          {
+            "model": "flair_large",
+            "text": "Froehlich",
+            "label": "PER",
+            "score": 0.9999725818634033,
+            "start": 772,
+            "end": 781
+          }
+        ],
+        "vote_count": 2
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0060",
+              "label": "Carl Nehrlich",
+              "score": 63.63636363636363,
+              "ref": "https://d-nb.info/gnd/104133368",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0469",
+              "label": "Rosenlächer",
+              "score": 60.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0116",
+              "label": "Friedrich Gagg",
+              "score": 52.17391304347826,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0437",
+              "label": "Kopp, Ulrich Friedrich",
+              "score": 51.61290322580645,
+              "ref": "https://d-nb.info/gnd/100197035",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0084",
+              "label": "Fechtig",
+              "score": 50.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0398",
+              "label": "Hohbach",
+              "score": 50.0,
+              "ref": "https://d-nb.info/gnd/1157726003",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0103",
+              "label": "Franz Joseph Schwarz",
+              "score": 48.275862068965516,
+              "ref": "https://d-nb.info/gnd/100863744",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0107",
+              "label": "Franz Pecher",
+              "score": 47.61904761904762,
+              "ref": "",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "A. L. Follen",
+      "target_label": "PER",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 787,
+        "end": 799
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_large",
+            "text": "A",
+            "label": "PER",
+            "score": 0.9993190765380859,
+            "start": 787,
+            "end": 788
+          },
+          {
+            "model": "flair_large",
+            "text": "L. Follen",
+            "label": "PER",
+            "score": 0.9987249076366425,
+            "start": 790,
+            "end": 799
+          },
+          {
+            "model": "hf_default",
+            "text": "A. L",
+            "label": "PER",
+            "score": 0.8460424542427063,
+            "start": 787,
+            "end": 791
+          }
+        ],
+        "vote_count": 3
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0004",
+          "ref": "https://d-nb.info/gnd/116646772"
+        },
+        "decision": {
+          "method": "llm",
+          "score": 1.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0004",
+              "label": "Adolf Ludwig Follen",
+              "score": 66.66666666666666,
+              "ref": "https://d-nb.info/gnd/116646772",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0273",
+              "label": "L. Graf von Sobolewski",
+              "score": 52.94117647058823,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0255",
+              "label": "Karl Halling",
+              "score": 50.0,
+              "ref": "https://d-nb.info/gnd/116412720",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0009",
+              "label": "Aloysia von Koller",
+              "score": 46.666666666666664,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0247",
+              "label": "Karl Alois Fickler",
+              "score": 46.666666666666664,
+              "ref": "https://d-nb.info/gnd/116490667",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0618",
+              "label": "Niklas von Wyle",
+              "score": 44.44444444444444,
+              "ref": "https://d-nb.info/gnd/118635735",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0615",
+              "label": "Ernst August I.",
+              "score": 44.44444444444444,
+              "ref": "https://d-nb.info/gnd/118530925",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0001",
+              "label": "Achille Jubinal",
+              "score": 44.44444444444444,
+              "ref": "https://d-nb.info/gnd/117212997",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Spiri talia theotisca",
+      "target_label": "LIT_WORK",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1084,
+        "end": 1105
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Spiri talia theotisca",
+            "label": "org",
+            "score": 0.4052,
+            "start": 1084,
+            "end": 1105
+          },
+          {
+            "model": "flair_base",
+            "text": "Spiri talia theotisca",
+            "label": "MISC",
+            "score": 0.9511422514915466,
+            "start": 1084,
+            "end": 1105
+          },
+          {
+            "model": "flair_large",
+            "text": "Spiri talia theotisca",
+            "label": "MISC",
+            "score": 0.9999533096949259,
+            "start": 1084,
+            "end": 1105
+          }
+        ],
+        "vote_count": 3
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-literature-0171",
+              "label": "Notker De materia artis rhetoricae",
+              "score": 50.90909090909091,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/5706",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0019",
+              "label": "Notitia dignitatum",
+              "score": 46.15384615384615,
+              "ref": null,
+              "idno": "https://de.wikipedia.org/wiki/Notitia_dignitatum",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0056",
+              "label": "Heinrich Murer Helvetia Sancta.",
+              "score": 46.15384615384615,
+              "ref": null,
+              "idno": "VD17 12:118604L",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0077",
+              "label": "Rerum Italicarum scriptores",
+              "score": 41.666666666666664,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0150",
+              "label": "Johannes Tauler Predigten",
+              "score": 39.130434782608695,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/652",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0095",
+              "label": "Anniversarium Hütlingense",
+              "score": 39.130434782608695,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0107",
+              "label": "Waltharius",
+              "score": 38.70967741935484,
+              "ref": null,
+              "idno": "https://geschichtsquellen.de/werk/2090",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0122",
+              "label": "Jacob Grimm Deutsche Mythologie",
+              "score": 38.46153846153846,
+              "ref": null,
+              "idno": "https://archive.org/details/deutschemytholo08grimgoog",
+              "kind": "bibl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Bresslau",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1162,
+        "end": 1170
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Bresslau",
+            "label": "loc",
+            "score": 0.9743,
+            "start": 1162,
+            "end": 1170
+          },
+          {
+            "model": "flair_base",
+            "text": "Bresslau",
+            "label": "PER",
+            "score": 0.9541605114936829,
+            "start": 1162,
+            "end": 1170
+          },
+          {
+            "model": "flair_large",
+            "text": "Bresslau",
+            "label": "LOC",
+            "score": 0.9999978542327881,
+            "start": 1162,
+            "end": 1170
+          },
+          {
+            "model": "hf_default",
+            "text": "Bresslau",
+            "label": "PER",
+            "score": 0.769585907459259,
+            "start": 1162,
+            "end": 1170
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "place",
+          "xml_id": "lassberg-place-0031",
+          "ref": "https://www.wikidata.org/wiki/Q1799"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 93.33333333333333,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-place-0031",
+              "label": "Breslau",
+              "score": 93.33333333333333,
+              "ref": "https://www.wikidata.org/wiki/Q1799",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0219",
+              "label": "Brüssel",
+              "score": 66.66666666666666,
+              "ref": "https://www.wikidata.org/wiki/Q239",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0307",
+              "label": "Bratislava",
+              "score": 55.55555555555556,
+              "ref": "https://www.wikidata.org/wiki/Q1780",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0216",
+              "label": "Eglisau",
+              "score": 53.333333333333336,
+              "ref": "https://www.wikidata.org/wiki/Q23784216",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0240",
+              "label": "Herisau",
+              "score": 53.333333333333336,
+              "ref": "https://www.wikidata.org/wiki/Q63970",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0158",
+              "label": "Weissbad",
+              "score": 50.0,
+              "ref": "https://www.wikidata.org/wiki/Q1443392",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0233",
+              "label": "Bussnang",
+              "score": 50.0,
+              "ref": "https://www.wikidata.org/wiki/Q65983",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0039",
+              "label": "Dreissigacker",
+              "score": 47.61904761904762,
+              "ref": "https://www.wikidata.org/wiki/Q1258282",
+              "kind": "place"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Grass",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1172,
+        "end": 1177
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Grass",
+            "label": "loc",
+            "score": 0.8359000000000001,
+            "start": 1172,
+            "end": 1177
+          },
+          {
+            "model": "flair_base",
+            "text": "Grass",
+            "label": "PER",
+            "score": 0.9999762773513794,
+            "start": 1172,
+            "end": 1177
+          },
+          {
+            "model": "flair_large",
+            "text": "Grass",
+            "label": "ORG",
+            "score": 0.4821532368659973,
+            "start": 1172,
+            "end": 1177
+          },
+          {
+            "model": "hf_default",
+            "text": "Grass",
+            "label": "PER",
+            "score": 0.7738228440284729,
+            "start": 1172,
+            "end": 1177
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0541",
+              "label": "Gerhard Hess",
+              "score": 58.8235294117647,
+              "ref": "https://d-nb.info/gnd/116764813",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0231",
+              "label": "Joseph Görres",
+              "score": 44.44444444444444,
+              "ref": "https://d-nb.info/gnd/11854019X",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0532",
+              "label": "Ambrosius",
+              "score": 42.857142857142854,
+              "ref": "https://d-nb.info/gnd/1192943422",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0146",
+              "label": "Hans Georg Fey",
+              "score": 42.10526315789474,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0143",
+              "label": "Gsell",
+              "score": 40.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0052",
+              "label": "Carl Banger",
+              "score": 37.5,
+              "ref": "https://d-nb.info/gnd/123776341",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0170",
+              "label": "Jacob Grimm",
+              "score": 37.5,
+              "ref": "https://d-nb.info/gnd/118542257",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0438",
+              "label": "Gallus Öhem",
+              "score": 37.5,
+              "ref": "https://d-nb.info/gnd/119202913",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Wessobrunner Gebetes",
+      "target_label": "LIT_WORK",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 1202,
+        "end": 1222
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_large",
+            "text": "Wessobrunner Gebetes",
+            "label": "MISC",
+            "score": 0.9795531332492828,
+            "start": 1202,
+            "end": 1222
+          }
+        ],
+        "vote_count": 1
+      },
+      "links": {
+        "register": {
+          "kind": "bibl",
+          "xml_id": "lassberg-literature-0161",
+          "ref": null
+        },
+        "decision": {
+          "method": "llm",
+          "score": 0.9,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-literature-0161",
+              "label": "Wilhelm Wackernagel Das Wessobrunner Gebet & die Wessobrunner Glossen",
+              "score": 75.0,
+              "ref": null,
+              "idno": "https://www.digitale-sammlungen.de/de/view/bsb11262948",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0173",
+              "label": "Werhner der Gärtner Helmbrecht",
+              "score": 48.0,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/764",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0074",
+              "label": "Morgenblatt für gebildete Stände",
+              "score": 46.15384615384615,
+              "ref": null,
+              "idno": "https://d-nb.info/gnd/4345483-5",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0166",
+              "label": "Sieben weise Meister.",
+              "score": 43.90243902439025,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/6078",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0103",
+              "label": "Baseler Zeitung",
+              "score": 40.0,
+              "ref": null,
+              "idno": "https://hls-dhs-dss.ch/de/articles/024762/2002-07-03/",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0052",
+              "label": "Reisewerk des Herrn Schwab (Unbekannt)",
+              "score": 39.285714285714285,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0085",
+              "label": "Deutsche Rechtsalterthümer",
+              "score": 39.130434782608695,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0097",
+              "label": "Walther von der Vogelweide",
+              "score": 39.130434782608695,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Wessobrunner Glossen",
+      "target_label": "LIT_WORK",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 1223,
+        "end": 1240
+      },
+      "evidence": {
+        "mentions": [],
+        "vote_count": 0
+      },
+      "links": {
+        "register": {
+          "kind": "bibl",
+          "xml_id": "lassberg-literature-0161",
+          "ref": null
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-literature-0161",
+              "label": "Wilhelm Wackernagel Das Wessobrunner Gebet & die Wessobrunner Glossen",
+              "score": 100.0,
+              "ref": null,
+              "idno": "https://www.digitale-sammlungen.de/de/view/bsb11262948",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0069",
+              "label": "Weingartner Kaiserchronik",
+              "score": 44.44444444444444,
+              "ref": null,
+              "idno": "https://www.geschichtsquellen.de/werk/5238",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0166",
+              "label": "Sieben weise Meister.",
+              "score": 43.90243902439025,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/6078",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0084",
+              "label": "Chronik des Konstanzer Konzils",
+              "score": 40.0,
+              "ref": null,
+              "idno": "https://www.geschichtsquellen.de/werk/4591",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0168",
+              "label": "Vocabularius Sancti Galli",
+              "score": 40.0,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/4438",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0173",
+              "label": "Werhner der Gärtner Helmbrecht",
+              "score": 40.0,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/764",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0052",
+              "label": "Reisewerk des Herrn Schwab (Unbekannt)",
+              "score": 39.285714285714285,
+              "ref": null,
+              "idno": "",
+              "kind": "bibl"
+            },
+            {
+              "xml_id": "lassberg-literature-0004",
+              "label": "Klingenberger Chronik",
+              "score": 39.02439024390244,
+              "ref": null,
+              "idno": "https://handschriftencensus.de/werke/4111",
+              "kind": "bibl"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Massmann",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1254,
+        "end": 1262
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Massmann",
+            "label": "pers",
+            "score": 0.8126000000000001,
+            "start": 1254,
+            "end": 1262
+          },
+          {
+            "model": "flair_base",
+            "text": "Massmann",
+            "label": "PER",
+            "score": 0.9999691247940063,
+            "start": 1254,
+            "end": 1262
+          },
+          {
+            "model": "flair_large",
+            "text": "Massmann",
+            "label": "PER",
+            "score": 0.9999423027038574,
+            "start": 1254,
+            "end": 1262
+          },
+          {
+            "model": "hf_default",
+            "text": "Massmann",
+            "label": "PER",
+            "score": 0.8570982813835144,
+            "start": 1254,
+            "end": 1262
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0031",
+              "label": "Bachmann",
+              "score": 62.5,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0429",
+              "label": "Ussermann, Aemilian",
+              "score": 59.25925925925926,
+              "ref": "https://d-nb.info/gnd/11732275X",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0501",
+              "label": "Johannes Damascenus",
+              "score": 51.851851851851855,
+              "ref": "https://d-nb.info/gnd/118557971",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0267",
+              "label": "Karl Widmann",
+              "score": 50.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0297",
+              "label": "Maria Tanner",
+              "score": 50.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0528",
+              "label": "Kaufmann Ott",
+              "score": 50.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0334",
+              "label": "Salomon Michaelis",
+              "score": 48.0,
+              "ref": "https://d-nb.info/gnd/117016985",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0260",
+              "label": "Karl Lachmann",
+              "score": 47.61904761904762,
+              "ref": "https://d-nb.info/gnd/118568558",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Berlin",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1265,
+        "end": 1271
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Berlin",
+            "label": "loc",
+            "score": 0.9148000000000001,
+            "start": 1265,
+            "end": 1271
+          },
+          {
+            "model": "flair_base",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9956134557723999,
+            "start": 1265,
+            "end": 1271
+          },
+          {
+            "model": "flair_large",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9999898672103882,
+            "start": 1265,
+            "end": 1271
+          },
+          {
+            "model": "hf_default",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9981854557991028,
+            "start": 1265,
+            "end": 1271
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "place",
+          "xml_id": "lassberg-place-0022",
+          "ref": "https://www.wikidata.org/wiki/Q64"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-place-0022",
+              "label": "Berlin",
+              "score": 100.0,
+              "ref": "https://www.wikidata.org/wiki/Q64",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0020",
+              "label": "Bern",
+              "score": 80.0,
+              "ref": "https://www.wikidata.org/wiki/Q70",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0007",
+              "label": "Überlingen",
+              "score": 75.0,
+              "ref": "https://www.wikidata.org/wiki/Q332952",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0184",
+              "label": "Bayern",
+              "score": 66.66666666666666,
+              "ref": "https://www.wikidata.org/wiki/Q980",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0019",
+              "label": "Basel",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q78",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0028",
+              "label": "Bozen",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q6526",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0144",
+              "label": "Stein",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q11939",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0244",
+              "label": "Rhein",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q584",
+              "kind": "place"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Schmidtsche Buchhdlg",
+      "target_label": "ORG",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1273,
+        "end": 1293
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Schmidtsche Buchhdlg",
+            "label": "org",
+            "score": 0.4336,
+            "start": 1273,
+            "end": 1293
+          },
+          {
+            "model": "flair_base",
+            "text": "Schmidtsche Buchhdlg",
+            "label": "PER",
+            "score": 0.9719962179660797,
+            "start": 1273,
+            "end": 1293
+          },
+          {
+            "model": "flair_large",
+            "text": "Schmidtsche Buchhdlg",
+            "label": "ORG",
+            "score": 0.9999158382415771,
+            "start": 1273,
+            "end": 1293
+          }
+        ],
+        "vote_count": 3
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0286",
+              "label": "Ludwig Schmid",
+              "score": 60.60606060606061,
+              "ref": "https://d-nb.info/gnd/117502189",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0195",
+              "label": "Johann Christoph Schmid",
+              "score": 46.51162790697674,
+              "ref": "https://d-nb.info/gnd/117499064",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0050",
+              "label": "Butsch",
+              "score": 46.15384615384615,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0441",
+              "label": "Johann Schilter",
+              "score": 45.714285714285715,
+              "ref": "https://d-nb.info/gnd/118795015",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0190",
+              "label": "Johann Baptist Schmid",
+              "score": 43.90243902439025,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0059",
+              "label": "Carl Mathieu",
+              "score": 43.75,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0073",
+              "label": "Dieterich von Bocholtz",
+              "score": 42.857142857142854,
+              "ref": "https://d-nb.info/gnd/116213361",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0047",
+              "label": "Brunschweiler",
+              "score": 42.42424242424242,
+              "ref": "",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Michel",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2220,
+        "end": 2226
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Michel",
+            "label": "pers",
+            "score": 0.5653,
+            "start": 2220,
+            "end": 2226
+          },
+          {
+            "model": "flair_base",
+            "text": "Michel",
+            "label": "PER",
+            "score": 0.9996036887168884,
+            "start": 2220,
+            "end": 2226
+          },
+          {
+            "model": "flair_large",
+            "text": "Michel",
+            "label": "PER",
+            "score": 0.9999678134918213,
+            "start": 2220,
+            "end": 2226
+          },
+          {
+            "model": "hf_default",
+            "text": "Michel",
+            "label": "PER",
+            "score": 0.9976565837860107,
+            "start": 2220,
+            "end": 2226
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0581",
+          "ref": "https://d-nb.info/gnd/118734725"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0581",
+              "label": "Michel Ney",
+              "score": 100.0,
+              "ref": "https://d-nb.info/gnd/118734725",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0366",
+              "label": "Wilhelm Merk",
+              "score": 55.55555555555556,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0313",
+              "label": "Moucheron",
+              "score": 53.333333333333336,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0362",
+              "label": "Wilhelm Grimm",
+              "score": 52.63157894736842,
+              "ref": "https://d-nb.info/gnd/118542265",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0634",
+              "label": "Michael, Erzengel",
+              "score": 52.17391304347826,
+              "ref": "https://d-nb.info/gnd/1082576905",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0334",
+              "label": "Salomon Michaelis",
+              "score": 52.17391304347826,
+              "ref": "https://d-nb.info/gnd/117016985",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0492",
+              "label": "Heinrich Keller",
+              "score": 47.61904761904762,
+              "ref": "https://d-nb.info/gnd/115552944",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0055",
+              "label": "Carl Hempel",
+              "score": 47.05882352941177,
+              "ref": "",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Eppishausen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 5070,
+        "end": 5081
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Eppishausen",
+            "label": "loc",
+            "score": 0.9329000000000001,
+            "start": 5070,
+            "end": 5081
+          },
+          {
+            "model": "flair_base",
+            "text": "Eppishausen",
+            "label": "LOC",
+            "score": 0.8308982849121094,
+            "start": 5070,
+            "end": 5081
+          },
+          {
+            "model": "flair_large",
+            "text": "Eppishausen",
+            "label": "LOC",
+            "score": 0.9998531341552734,
+            "start": 5070,
+            "end": 5081
+          },
+          {
+            "model": "hf_default",
+            "text": "Eppishausen",
+            "label": "LOC",
+            "score": 0.9861994981765747,
+            "start": 5070,
+            "end": 5081
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "place",
+          "xml_id": "lassberg-place-0043",
+          "ref": "https://www.wikidata.org/wiki/Q1423653"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-place-0043",
+              "label": "Eppishausen",
+              "score": 100.0,
+              "ref": "https://www.wikidata.org/wiki/Q1423653",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0250",
+              "label": "Ettenhausen",
+              "score": 63.63636363636363,
+              "ref": "https://www.wikidata.org/wiki/Q68305",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0132",
+              "label": "Schaffhausen",
+              "score": 60.869565217391305,
+              "ref": "https://www.wikidata.org/wiki/Q9009",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0237",
+              "label": "Lutterhausen",
+              "score": 60.869565217391305,
+              "ref": "https://www.wikidata.org/wiki/Q1878014",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0118",
+              "label": "Pilsen",
+              "score": 58.8235294117647,
+              "ref": "https://www.wikidata.org/wiki/Q43453",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0214",
+              "label": "Hessen",
+              "score": 58.8235294117647,
+              "ref": "https://www.wikidata.org/wiki/Q1199",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0107",
+              "label": "Neuhaus",
+              "score": 55.55555555555556,
+              "ref": "https://www.wikidata.org/wiki/Q67097",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0215",
+              "label": "Sachsen",
+              "score": 55.55555555555556,
+              "ref": "https://www.wikidata.org/wiki/Q1202",
+              "kind": "place"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Wilhelm Wackernagel",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 5167,
+        "end": 5186
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Wilhelm Wackernagel",
+            "label": "pers",
+            "score": 0.8126000000000001,
+            "start": 5167,
+            "end": 5186
+          },
+          {
+            "model": "flair_base",
+            "text": "Wilhelm Wackernagel",
+            "label": "PER",
+            "score": 0.9878228306770325,
+            "start": 5167,
+            "end": 5186
+          },
+          {
+            "model": "flair_large",
+            "text": "Wilhelm Wackernagel",
+            "label": "PER",
+            "score": 0.9999960660934448,
+            "start": 5167,
+            "end": 5186
+          },
+          {
+            "model": "hf_default",
+            "text": "Wilhelm Wackernagel",
+            "label": "PER",
+            "score": 0.9993988871574402,
+            "start": 5167,
+            "end": 5186
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "person",
+          "xml_id": "lassberg-correspondent-0367",
+          "ref": "https://d-nb.info/gnd/118805851"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-correspondent-0367",
+              "label": "Wilhelm Wackernagel",
+              "score": 100.0,
+              "ref": "https://d-nb.info/gnd/118805851",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0366",
+              "label": "Wilhelm Merk",
+              "score": 73.6842105263158,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0362",
+              "label": "Wilhelm Grimm",
+              "score": 70.0,
+              "ref": "https://d-nb.info/gnd/118542265",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0361",
+              "label": "Wilhelm Füssli",
+              "score": 66.66666666666666,
+              "ref": "https://d-nb.info/gnd/116847638",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0548",
+              "label": "Wilhelm von Ende",
+              "score": 62.857142857142854,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0634",
+              "label": "Michael, Erzengel",
+              "score": 61.111111111111114,
+              "ref": "https://d-nb.info/gnd/1082576905",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0589",
+              "label": "Johann Wilhelm Gamper",
+              "score": 60.0,
+              "ref": "",
+              "kind": "person"
+            },
+            {
+              "xml_id": "lassberg-correspondent-0636",
+              "label": "Raphael, Erzengel",
+              "score": 55.55555555555556,
+              "ref": "https://d-nb.info/gnd/119520761",
+              "kind": "person"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Berlin",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 5188,
+        "end": 5194
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Berlin",
+            "label": "loc",
+            "score": 0.9687,
+            "start": 5188,
+            "end": 5194
+          },
+          {
+            "model": "flair_base",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9992305040359497,
+            "start": 5188,
+            "end": 5194
+          },
+          {
+            "model": "flair_large",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.99998939037323,
+            "start": 5188,
+            "end": 5194
+          },
+          {
+            "model": "hf_default",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9987377524375916,
+            "start": 5188,
+            "end": 5194
+          }
+        ],
+        "vote_count": 4
+      },
+      "links": {
+        "register": {
+          "kind": "place",
+          "xml_id": "lassberg-place-0022",
+          "ref": "https://www.wikidata.org/wiki/Q64"
+        },
+        "decision": {
+          "method": "fuzzy",
+          "score": 100.0,
+          "candidates_considered": [
+            {
+              "xml_id": "lassberg-place-0022",
+              "label": "Berlin",
+              "score": 100.0,
+              "ref": "https://www.wikidata.org/wiki/Q64",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0020",
+              "label": "Bern",
+              "score": 80.0,
+              "ref": "https://www.wikidata.org/wiki/Q70",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0007",
+              "label": "Überlingen",
+              "score": 75.0,
+              "ref": "https://www.wikidata.org/wiki/Q332952",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0184",
+              "label": "Bayern",
+              "score": 66.66666666666666,
+              "ref": "https://www.wikidata.org/wiki/Q980",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0019",
+              "label": "Basel",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q78",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0028",
+              "label": "Bozen",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q6526",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0144",
+              "label": "Stein",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q11939",
+              "kind": "place"
+            },
+            {
+              "xml_id": "lassberg-place-0244",
+              "label": "Rhein",
+              "score": 54.54545454545455,
+              "ref": "https://www.wikidata.org/wiki/Q584",
+              "kind": "place"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "text": "Decembers",
+      "target_label": "TIME",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 96,
+        "end": 105
+      },
+      "evidence": {
+        "mentions": [],
+        "vote_count": 0
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": []
+        }
+      }
+    },
+    {
+      "text": "14/12/27",
+      "target_label": "TIME",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 5211,
+        "end": 5218
+      },
+      "evidence": {
+        "mentions": [],
+        "vote_count": 0
+      },
+      "links": {
+        "register": null,
+        "decision": {
+          "method": "none",
+          "score": 0.0,
+          "candidates_considered": []
+        }
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "text": "L",
+      "label": "org",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.3197
+      }
+    },
+    {
+      "text": "L",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8157612681388855
+      }
+    },
+    {
+      "text": "Neumuoz",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9917098879814148
+      }
+    },
+    {
+      "text": "Adê",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.498321533203125
+      }
+    },
+    {
+      "text": "Sol",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9982538819313049
+      }
+    },
+    {
+      "text": "Al",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9040536284446716
+      }
+    },
+    {
+      "text": "Schoenest",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9370353817939758
+      }
+    },
+    {
+      "text": "vrouwen",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8322195410728455
+      }
+    },
+    {
+      "text": "Waz",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9311788082122803
+      }
+    },
+    {
+      "text": "Wan",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8206928968429565
+      }
+    },
+    {
+      "text": "Na",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.5781320929527283
+      }
+    },
+    {
+      "text": "##gal",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.5489891767501831
+      }
+    }
+  ]
+}

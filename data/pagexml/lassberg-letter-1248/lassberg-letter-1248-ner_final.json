@@ -1,0 +1,894 @@
+{
+  "letter_id": "1248",
+  "title": "Letter 1248 — done_lassberg-letter-1248",
+  "entities": [
+    {
+      "text": "Buchhändler Seemüller",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 15,
+        "end": 36
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Buchhändler Seemüller",
+            "label": "pers",
+            "score": 0.9076000000000001,
+            "start": 15,
+            "end": 36
+          },
+          {
+            "model": "flair_base",
+            "text": "Seemüller",
+            "label": "PER",
+            "score": 0.9973713159561157,
+            "start": 27,
+            "end": 36
+          },
+          {
+            "model": "flair_large",
+            "text": "Seemüller",
+            "label": "PER",
+            "score": 0.9999854564666748,
+            "start": 27,
+            "end": 36
+          },
+          {
+            "model": "hf_default",
+            "text": "Seemüller",
+            "label": "PER",
+            "score": 0.9942874312400818,
+            "start": 27,
+            "end": 36
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Constanz",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 41,
+        "end": 49
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Constanz",
+            "label": "loc",
+            "score": 0.9682,
+            "start": 41,
+            "end": 49
+          },
+          {
+            "model": "flair_base",
+            "text": "Constanz",
+            "label": "LOC",
+            "score": 0.8629048466682434,
+            "start": 41,
+            "end": 49
+          },
+          {
+            "model": "flair_large",
+            "text": "Constanz",
+            "label": "LOC",
+            "score": 0.9999861717224121,
+            "start": 41,
+            "end": 49
+          },
+          {
+            "model": "hf_default",
+            "text": "Constanz",
+            "label": "LOC",
+            "score": 0.9980581402778625,
+            "start": 41,
+            "end": 49
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "14 Maerz 1831",
+      "target_label": "TIME",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 53,
+        "end": 66
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "14 Maerz 1831",
+            "label": "time",
+            "score": 0.8055,
+            "start": 53,
+            "end": 66
+          }
+        ],
+        "vote_count": 1
+      }
+    },
+    {
+      "text": "Wackernagel",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 68,
+        "end": 79
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_base",
+            "text": "Wackernagel",
+            "label": "PER",
+            "score": 0.9336218237876892,
+            "start": 68,
+            "end": 79
+          },
+          {
+            "model": "flair_large",
+            "text": "Wackernagel",
+            "label": "PER",
+            "score": 0.9918172955513,
+            "start": 68,
+            "end": 79
+          },
+          {
+            "model": "hf_default",
+            "text": "Wackernagel",
+            "label": "PER",
+            "score": 0.997960090637207,
+            "start": 68,
+            "end": 79
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "Herr Baron",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 93,
+        "end": 103
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Herr Baron",
+            "label": "pers",
+            "score": 0.7444,
+            "start": 93,
+            "end": 103
+          },
+          {
+            "model": "flair_base",
+            "text": "Baron",
+            "label": "PER",
+            "score": 0.9998663663864136,
+            "start": 98,
+            "end": 103
+          },
+          {
+            "model": "hf_default",
+            "text": "Baron",
+            "label": "PER",
+            "score": 0.7599524855613708,
+            "start": 98,
+            "end": 103
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "Schweiz",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 704,
+        "end": 711
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Schweiz",
+            "label": "loc",
+            "score": 0.8212999999999999,
+            "start": 704,
+            "end": 711
+          },
+          {
+            "model": "flair_base",
+            "text": "Schweiz",
+            "label": "LOC",
+            "score": 0.999052107334137,
+            "start": 704,
+            "end": 711
+          },
+          {
+            "model": "flair_large",
+            "text": "Schweiz",
+            "label": "LOC",
+            "score": 0.9999887943267822,
+            "start": 704,
+            "end": 711
+          },
+          {
+            "model": "hf_default",
+            "text": "Schweiz",
+            "label": "LOC",
+            "score": 0.9998834133148193,
+            "start": 704,
+            "end": 711
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Zürich",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 729,
+        "end": 735
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Zürich",
+            "label": "loc",
+            "score": 0.9728,
+            "start": 729,
+            "end": 735
+          },
+          {
+            "model": "flair_base",
+            "text": "Zürich",
+            "label": "LOC",
+            "score": 0.9997518658638,
+            "start": 729,
+            "end": 735
+          },
+          {
+            "model": "flair_large",
+            "text": "Zürich",
+            "label": "LOC",
+            "score": 0.9999897480010986,
+            "start": 729,
+            "end": 735
+          },
+          {
+            "model": "hf_default",
+            "text": "Zürich",
+            "label": "LOC",
+            "score": 0.9998480081558228,
+            "start": 729,
+            "end": 735
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Aargau",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 740,
+        "end": 746
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Aargau",
+            "label": "loc",
+            "score": 0.9592,
+            "start": 740,
+            "end": 746
+          },
+          {
+            "model": "flair_base",
+            "text": "Aargau",
+            "label": "LOC",
+            "score": 0.9998488426208496,
+            "start": 740,
+            "end": 746
+          },
+          {
+            "model": "flair_large",
+            "text": "Aargau",
+            "label": "LOC",
+            "score": 0.9999778270721436,
+            "start": 740,
+            "end": 746
+          },
+          {
+            "model": "hf_default",
+            "text": "Aargau",
+            "label": "LOC",
+            "score": 0.9998276233673096,
+            "start": 740,
+            "end": 746
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Basel",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 751,
+        "end": 756
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Basel",
+            "label": "loc",
+            "score": 0.9490000000000001,
+            "start": 751,
+            "end": 756
+          },
+          {
+            "model": "flair_base",
+            "text": "Basel",
+            "label": "LOC",
+            "score": 0.9999905824661255,
+            "start": 751,
+            "end": 756
+          },
+          {
+            "model": "flair_large",
+            "text": "Basel",
+            "label": "LOC",
+            "score": 0.999990701675415,
+            "start": 751,
+            "end": 756
+          },
+          {
+            "model": "hf_default",
+            "text": "Basel",
+            "label": "LOC",
+            "score": 0.9998756647109985,
+            "start": 751,
+            "end": 756
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Bündnerlande",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 761,
+        "end": 773
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Bündnerlande",
+            "label": "loc",
+            "score": 0.8479000000000001,
+            "start": 761,
+            "end": 773
+          },
+          {
+            "model": "flair_large",
+            "text": "Bündnerlande",
+            "label": "LOC",
+            "score": 0.9999631643295288,
+            "start": 761,
+            "end": 773
+          },
+          {
+            "model": "hf_default",
+            "text": "Bündnerlande",
+            "label": "LOC",
+            "score": 0.999713659286499,
+            "start": 761,
+            "end": 773
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "Thurgau",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 836,
+        "end": 843
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Thurgau",
+            "label": "loc",
+            "score": 0.7095,
+            "start": 836,
+            "end": 843
+          },
+          {
+            "model": "flair_base",
+            "text": "Thurgau",
+            "label": "LOC",
+            "score": 0.9953226447105408,
+            "start": 836,
+            "end": 843
+          },
+          {
+            "model": "flair_large",
+            "text": "Thurgau",
+            "label": "LOC",
+            "score": 0.9999420642852783,
+            "start": 836,
+            "end": 843
+          },
+          {
+            "model": "hf_default",
+            "text": "Thurgau",
+            "label": "LOC",
+            "score": 0.9998226165771484,
+            "start": 836,
+            "end": 843
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Schloß Eppishausen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 848,
+        "end": 866
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Schloß Eppishausen",
+            "label": "loc",
+            "score": 0.9104000000000001,
+            "start": 848,
+            "end": 866
+          },
+          {
+            "model": "flair_base",
+            "text": "Schloß Eppishausen",
+            "label": "LOC",
+            "score": 0.9908635020256042,
+            "start": 848,
+            "end": 866
+          },
+          {
+            "model": "flair_large",
+            "text": "Schloß Eppishausen",
+            "label": "LOC",
+            "score": 0.9999617338180542,
+            "start": 848,
+            "end": 866
+          },
+          {
+            "model": "hf_default",
+            "text": "Schloß Eppishausen",
+            "label": "LOC",
+            "score": 0.9995031356811523,
+            "start": 848,
+            "end": 866
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Maister Sepp",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 871,
+        "end": 883
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Maister Sepp",
+            "label": "pers",
+            "score": 0.9192,
+            "start": 871,
+            "end": 883
+          },
+          {
+            "model": "flair_base",
+            "text": "Sepp",
+            "label": "PER",
+            "score": 0.9976657629013062,
+            "start": 879,
+            "end": 883
+          },
+          {
+            "model": "flair_large",
+            "text": "Sepp",
+            "label": "PER",
+            "score": 0.9998753070831299,
+            "start": 879,
+            "end": 883
+          },
+          {
+            "model": "hf_default",
+            "text": "Sepp",
+            "label": "PER",
+            "score": 0.99454665184021,
+            "start": 879,
+            "end": 883
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Breslau",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1552,
+        "end": 1559
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Breslau",
+            "label": "loc",
+            "score": 0.9726,
+            "start": 1552,
+            "end": 1559
+          },
+          {
+            "model": "flair_base",
+            "text": "Breslau",
+            "label": "LOC",
+            "score": 0.9977173805236816,
+            "start": 1552,
+            "end": 1559
+          },
+          {
+            "model": "flair_large",
+            "text": "Breslau",
+            "label": "LOC",
+            "score": 0.9999959468841553,
+            "start": 1552,
+            "end": 1559
+          },
+          {
+            "model": "hf_default",
+            "text": "Breslau",
+            "label": "LOC",
+            "score": 0.9996111989021301,
+            "start": 1552,
+            "end": 1559
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Bibliothecar H. Hoffmann",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1699,
+        "end": 1723
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Bibliothecar H. Hoffmann",
+            "label": "pers",
+            "score": 0.9582999999999999,
+            "start": 1699,
+            "end": 1723
+          },
+          {
+            "model": "flair_base",
+            "text": "H. Hoffmann",
+            "label": "PER",
+            "score": 0.9951753318309784,
+            "start": 1712,
+            "end": 1723
+          },
+          {
+            "model": "flair_large",
+            "text": "H. Hoffmann",
+            "label": "PER",
+            "score": 0.9999902844429016,
+            "start": 1712,
+            "end": 1723
+          },
+          {
+            "model": "hf_default",
+            "text": "Bibliothecar H. Hoffmann",
+            "label": "ORG",
+            "score": 0.9585824012756348,
+            "start": 1699,
+            "end": 1723
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Bresslau",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1725,
+        "end": 1733
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Bresslau",
+            "label": "loc",
+            "score": 0.8423,
+            "start": 1725,
+            "end": 1733
+          },
+          {
+            "model": "flair_base",
+            "text": "Bresslau",
+            "label": "LOC",
+            "score": 0.6359399557113647,
+            "start": 1725,
+            "end": 1733
+          },
+          {
+            "model": "flair_large",
+            "text": "Bresslau",
+            "label": "LOC",
+            "score": 0.9999959468841553,
+            "start": 1725,
+            "end": 1733
+          },
+          {
+            "model": "hf_default",
+            "text": "Bresslau",
+            "label": "LOC",
+            "score": 0.9996015429496765,
+            "start": 1725,
+            "end": 1733
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "neue Sandstrasse",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1735,
+        "end": 1751
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_large",
+            "text": "neue Sandstrasse",
+            "label": "LOC",
+            "score": 0.9999646544456482,
+            "start": 1735,
+            "end": 1751
+          },
+          {
+            "model": "hmbert",
+            "text": "neue Sandstrasse",
+            "label": "loc",
+            "score": 0.7691,
+            "start": 1735,
+            "end": 1751
+          }
+        ],
+        "vote_count": 2
+      }
+    },
+    {
+      "text": "Wilh. Wackernagel cand. philol",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1849,
+        "end": 1879
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Wilh. Wackernagel cand. philol",
+            "label": "pers",
+            "score": 0.9207,
+            "start": 1849,
+            "end": 1879
+          },
+          {
+            "model": "flair_base",
+            "text": "Wackernagel",
+            "label": "PER",
+            "score": 0.9872892498970032,
+            "start": 1855,
+            "end": 1866
+          },
+          {
+            "model": "flair_large",
+            "text": "Wackernagel",
+            "label": "PER",
+            "score": 0.9989205598831177,
+            "start": 1855,
+            "end": 1866
+          },
+          {
+            "model": "hf_default",
+            "text": "Wilh. Wackernagel",
+            "label": "PER",
+            "score": 0.9990355968475342,
+            "start": 1849,
+            "end": 1866
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Berlin",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1881,
+        "end": 1887
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Berlin",
+            "label": "loc",
+            "score": 0.9570000000000001,
+            "start": 1881,
+            "end": 1887
+          },
+          {
+            "model": "flair_base",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9989144802093506,
+            "start": 1881,
+            "end": 1887
+          },
+          {
+            "model": "flair_large",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9999915361404419,
+            "start": 1881,
+            "end": 1887
+          },
+          {
+            "model": "hf_default",
+            "text": "Berlin",
+            "label": "LOC",
+            "score": 0.9797908663749695,
+            "start": 1881,
+            "end": 1887
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "30. September. 1828",
+      "target_label": "TIME",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1889,
+        "end": 1908
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "30. September. 1828",
+            "label": "time",
+            "score": 0.8034,
+            "start": 1889,
+            "end": 1908
+          }
+        ],
+        "vote_count": 1
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "text": "Baron",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.8140000000000001
+      }
+    },
+    {
+      "text": "Baron",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.9173007607460022
+      }
+    },
+    {
+      "text": "Baron",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9999823570251465
+      }
+    },
+    {
+      "text": "Sepp",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9976657629013062
+      }
+    },
+    {
+      "text": "Sepp",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "flair_large",
+        "score": 0.9998753070831299
+      }
+    },
+    {
+      "text": "Wilh",
+      "label": "PER",
+      "reason": "duplicate shorter span",
+      "evidence": {
+        "model": "flair_large",
+        "score": 0.8330652713775635
+      }
+    }
+  ]
+}

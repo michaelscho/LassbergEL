@@ -1,0 +1,7 @@
+TASK\n====
+Return a single JSON object (only JSON, no explanations) that conforms to the schema in the system message.
+- merge overlapping/conflicting mentions (choose the longest informative span),
+- map labels to PER, LOC, ORG, LIT_WORK, LIT_OBJECT, TIME,
+- add missing entities (mark \"added_by_llm\": true),
+- PRESERVE OFFSETS: include all contributing mentions (with start/end) under evidence.mentions,
+- and pick one representative char_span per entity if possible.

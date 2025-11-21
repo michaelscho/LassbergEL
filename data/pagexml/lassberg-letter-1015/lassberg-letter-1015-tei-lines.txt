@@ -1,0 +1,63 @@
+<pb n="1" corresp="../pagexml/lassberg-letter-1015/lassberg-letter-1015-1.xml"/>
+<lb xml:id="lassberg-letter-1015-1-1" n="1" corresp="tr_1_tl_1"/>1264
+<lb xml:id="lassberg-letter-1015-1-2" n="2" corresp="tr_1_tl_2"/>163.
+<lb xml:id="lassberg-letter-1015-1-3" n="3" corresp="tr_1_tl_3"/>No. 85.
+<lb xml:id="lassberg-letter-1015-1-4" n="4" corresp="tr_1_tl_4"/>Constanz am 30 July 1825.
+<lb xml:id="lassberg-letter-1015-1-5" n="5" corresp="tr_1_tl_5"/>Die schöne Gelegenheit, Inen mein teurer Freund,
+<lb xml:id="lassberg-letter-1015-1-6" n="6" corresp="tr_1_tl_6"/>durch H. Registrator Rosenlächer einen freundlichen
+<lb xml:id="lassberg-letter-1015-1-7" n="7" corresp="tr_1_tl_7"/>Gruß zuzurufen, will ich nicht versäumen und
+<lb xml:id="lassberg-letter-1015-1-8" n="8" corresp="tr_1_tl_8"/>Inen sagen, daß ich lezten Montag meine Schwieger
+<lb break="no" xml:id="lassberg-letter-1015-1-9" n="9" corresp="tr_2_tl_1"/>tochter, welche Inen mit mir noch viel mal herzlich
+<lb xml:id="lassberg-letter-1015-1-10" n="10" corresp="tr_2_tl_2"/>für alle erwiesene Liebe u. Freundschaft danket, von
+<lb xml:id="lassberg-letter-1015-1-11" n="11" corresp="tr_2_tl_3"/>hier nach Worblingen zu einem Freunde H. v. Soumard
+<lb xml:id="lassberg-letter-1015-1-12" n="12" corresp="tr_2_tl_4"/>begleitet habe und dort in der Registratur einige
+<lb xml:id="lassberg-letter-1015-1-13" n="13" corresp="tr_2_tl_5"/>interessante Urkunden fand, wovon besonders die
+<lb xml:id="lassberg-letter-1015-1-14" n="14" corresp="tr_2_tl_6"/>Eine von 1444, über die Familie Holbein einen ganz
+<lb xml:id="lassberg-letter-1015-1-15" n="15" corresp="tr_2_tl_7"/>unerwarteten Aufschluss giebt. Erik Holbein wird
+<lb xml:id="lassberg-letter-1015-1-16" n="16" corresp="tr_2_tl_8"/>darin als der Stifter des Selhauses in Ravensburg
+<lb xml:id="lassberg-letter-1015-1-17" n="17" corresp="tr_2_tl_9"/>aufgefüret. Ich hoffe dem H. Albr. Hegner durch
+<lb xml:id="lassberg-letter-1015-1-18" n="18" corresp="tr_2_tl_10"/>Mitteilung derselben einiges Vergnügen zu machen.
+<lb xml:id="lassberg-letter-1015-1-19" n="19" corresp="tr_3_tl_1"/>Ich durchstrich v. Worblingen aus den sogenannten
+<lb xml:id="lassberg-letter-1015-1-20" n="20" corresp="tr_3_tl_2"/>Schiener Berg, besuchte die uralte Schrotzburg, in
+<lb xml:id="lassberg-letter-1015-1-21" n="21" corresp="tr_3_tl_3"/>welches vor ein Par Jaren einige 40 röm. Silber
+<lb break="no" xml:id="lassberg-letter-1015-1-22" n="22" corresp="tr_3_tl_4"/>münzen ausgegraben wurden, und fand der Sage
+<lb xml:id="lassberg-letter-1015-1-23" n="23" corresp="tr_3_tl_5"/>nach, die von dem alten Hattinger in seiner Kirchen
+<pb n="2" corresp="../pagexml/lassberg-letter-1015/lassberg-letter-1015-2.xml"/>
+<lb break="no" xml:id="lassberg-letter-1015-2-1" n="1" corresp="tr_2_tl_2"/>Geschichte. I. pag. 482 gewagte Angabe, daß dieses die
+<lb xml:id="lassberg-letter-1015-2-2" n="2" corresp="tr_2_tl_3"/>Diepoldsburg seie, wohin Berthold u. Erchanger den
+<lb xml:id="lassberg-letter-1015-2-3" n="3" corresp="tr_2_tl_4"/>gefangenen Bischof Salomon III verborgen haben,
+<lb xml:id="lassberg-letter-1015-2-4" n="4" corresp="tr_2_tl_5"/>ganz warscheinlich. Ich besuchte auch Schinen, wo
+<lb xml:id="lassberg-letter-1015-2-5" n="5" corresp="tr_2_tl_6"/>der allgemeinen Sage nach die ersten Christen dieses
+<lb xml:id="lassberg-letter-1015-2-6" n="6" corresp="tr_2_tl_7"/>Landes, vor den Verfolgungen der Römer fliehend, sich
+<lb xml:id="lassberg-letter-1015-2-7" n="7" corresp="tr_2_tl_8"/>sollen angebaut haben: halte aber dafür, daß es wol
+<lb xml:id="lassberg-letter-1015-2-8" n="8" corresp="tr_2_tl_9"/>möchten Leute gewesen sein, die zu Anfang des 10 Jar
+<lb break="no" xml:id="lassberg-letter-1015-2-9" n="9" corresp="tr_1_tl_1"/>hunderts, vor den alles überschwemmenden und zer
+<lb break="no" xml:id="lassberg-letter-1015-2-10" n="10" corresp="tr_1_tl_2"/>störenden Hunnen, in diesen beinahe unentdekbaren
+<lb xml:id="lassberg-letter-1015-2-11" n="11" corresp="tr_1_tl_3"/>Bergkessel sich geflüchtet haben. In Stein fand
+<lb xml:id="lassberg-letter-1015-2-12" n="12" corresp="tr_1_tl_4"/>ich H. Pfarrer Kirchhofer abwesend und ging unauf
+<lb break="no" xml:id="lassberg-letter-1015-2-13" n="13" corresp="tr_1_tl_5"/>gehalten hieher zurück.
+<lb xml:id="lassberg-letter-1015-2-14" n="14" corresp="tr_1_tl_6"/>Nun mein Freund! hätte ich eine kleine Bitte an den
+<lb xml:id="lassberg-letter-1015-2-15" n="15" corresp="tr_1_tl_7"/>glüklichen Besizer des Codex trad. S. Gallensium.
+<lb xml:id="lassberg-letter-1015-2-16" n="16" corresp="tr_1_tl_8"/>In Neugarts Cod. diplom. Alamanniae Tom. I.
+<lb xml:id="lassberg-letter-1015-2-17" n="17" corresp="tr_1_tl_9"/>Urkunde CIII. Traditis Gringi, sind ausge
+<lb break="no" xml:id="lassberg-letter-1015-2-18" n="18" corresp="tr_1_tl_10"/>lassene Stellen, besonders post Verba: Gallone,
+<lb xml:id="lassberg-letter-1015-2-19" n="19" corresp="tr_1_tl_11"/>Gringi und: Visus sum habere. Könnten Sie
+<pb n="3" corresp="../pagexml/lassberg-letter-1015/lassberg-letter-1015-3.xml"/>
+<lb xml:id="lassberg-letter-1015-3-1" n="1" corresp="tr_2_tl_1"/>die Güte haben mir diese Lüken ergänzen, oder wenn
+<lb xml:id="lassberg-letter-1015-3-2" n="2" corresp="tr_2_tl_2"/>die Urkunde nicht zu lange ist, lieber mir dieselbe
+<lb xml:id="lassberg-letter-1015-3-3" n="3" corresp="tr_2_tl_3"/>ganz abschreiben zu lassen, so würden Sie mich
+<lb xml:id="lassberg-letter-1015-3-4" n="4" corresp="tr_2_tl_5"/>recht ser verbinden; freilich könnte nur die aller
+<lb break="no" xml:id="lassberg-letter-1015-3-5" n="5" corresp="tr_2_tl_6"/>grosste Genauigkeit der Abschrift den gehörigen
+<lb xml:id="lassberg-letter-1015-3-6" n="6" corresp="tr_1_tl_1"/>Wert geben.
+<lb xml:id="lassberg-letter-1015-3-7" n="7" corresp="tr_1_tl_2"/>Hier lege ich Ihnen auch ein Zettelchen für
+<lb xml:id="lassberg-letter-1015-3-8" n="8" corresp="tr_1_tl_3"/>den H. Oberst Honerlage bei, damit er siehet daß
+<lb xml:id="lassberg-letter-1015-3-9" n="9" corresp="tr_1_tl_4"/>sein Name nicht von Gestern ist, und ursprünglich
+<lb xml:id="lassberg-letter-1015-3-10" n="10" corresp="tr_1_tl_5"/>dem nördlichen teutschlande angehöret.
+<lb xml:id="lassberg-letter-1015-3-11" n="11" corresp="tr_1_tl_6"/>Übrigens leben Sie wol, von Eppishausen aus
+<lb xml:id="lassberg-letter-1015-3-12" n="12" corresp="tr_1_tl_7"/>ein Mereres von Irem
+<lb xml:id="lassberg-letter-1015-3-13" n="13" corresp="tr_1_tl_9"/>Freunde JvLaßzberg
+<pb n="4" corresp="../pagexml/lassberg-letter-1015/lassberg-letter-1015-4.xml"/>
+<lb xml:id="lassberg-letter-1015-4-1" n="1" corresp="tr_1_tl_1"/>1267.
+<lb xml:id="lassberg-letter-1015-4-2" n="2" corresp="tr_1_tl_2"/>Constantz 30. July 1825
+<lb xml:id="lassberg-letter-1015-4-3" n="3" corresp="tr_1_tl_3"/>Jos. von Laßberg
+<lb xml:id="lassberg-letter-1015-4-4" n="4" corresp="tr_1_tl_4"/>beantw. 6. Aug.

@@ -1,0 +1,212 @@
+[
+  {
+    "text": "Constanz",
+    "label": "LOC",
+    "score": 0.9967320561408997,
+    "start": 18,
+    "end": 26
+  },
+  {
+    "text": "Rosenlächer",
+    "label": "PER",
+    "score": 0.9955350756645203,
+    "start": 114,
+    "end": 125
+  },
+  {
+    "text": "Worblingen",
+    "label": "LOC",
+    "score": 0.9918778538703918,
+    "start": 355,
+    "end": 365
+  },
+  {
+    "text": "H. v. Soumard",
+    "label": "PER",
+    "score": 0.9547984004020691,
+    "start": 383,
+    "end": 396
+  },
+  {
+    "text": "Holbein",
+    "label": "PER",
+    "score": 0.8448333740234375,
+    "start": 527,
+    "end": 534
+  },
+  {
+    "text": "Erik Holbein",
+    "label": "PER",
+    "score": 0.9998124241828918,
+    "start": 577,
+    "end": 589
+  },
+  {
+    "text": "Ravensburg",
+    "label": "LOC",
+    "score": 0.9994252920150757,
+    "start": 634,
+    "end": 644
+  },
+  {
+    "text": "H",
+    "label": "PER",
+    "score": 0.9802888631820679,
+    "start": 671,
+    "end": 672
+  },
+  {
+    "text": ". Albr. Hegner",
+    "label": "PER",
+    "score": 0.9021144509315491,
+    "start": 672,
+    "end": 686
+  },
+  {
+    "text": "v",
+    "label": "LOC",
+    "score": 0.7364306449890137,
+    "start": 759,
+    "end": 760
+  },
+  {
+    "text": "Worblingen",
+    "label": "LOC",
+    "score": 0.7406630516052246,
+    "start": 762,
+    "end": 772
+  },
+  {
+    "text": "Schiener Berg",
+    "label": "LOC",
+    "score": 0.9995895624160767,
+    "start": 793,
+    "end": 806
+  },
+  {
+    "text": "Schrotzburg",
+    "label": "LOC",
+    "score": 0.9994493126869202,
+    "start": 828,
+    "end": 839
+  },
+  {
+    "text": "Hattinger",
+    "label": "PER",
+    "score": 0.8038389682769775,
+    "start": 961,
+    "end": 970
+  },
+  {
+    "text": "Diepoldsburg",
+    "label": "LOC",
+    "score": 0.9895843863487244,
+    "start": 1044,
+    "end": 1056
+  },
+  {
+    "text": "Berthold u. Erchanger",
+    "label": "PER",
+    "score": 0.9721933007240295,
+    "start": 1069,
+    "end": 1090
+  },
+  {
+    "text": "Salomon III",
+    "label": "PER",
+    "score": 0.9995630979537964,
+    "start": 1114,
+    "end": 1125
+  },
+  {
+    "text": "Schinen",
+    "label": "LOC",
+    "score": 0.9923649430274963,
+    "start": 1181,
+    "end": 1188
+  },
+  {
+    "text": "Kirchhofer",
+    "label": "PER",
+    "score": 0.9962582588195801,
+    "start": 1567,
+    "end": 1577
+  },
+  {
+    "text": "Neugarts",
+    "label": "LOC",
+    "score": 0.9318928122520447,
+    "start": 1731,
+    "end": 1739
+  },
+  {
+    "text": "G",
+    "label": "PER",
+    "score": 0.6699182391166687,
+    "start": 1795,
+    "end": 1796
+  },
+  {
+    "text": "Gallo",
+    "label": "PER",
+    "score": 0.6601454615592957,
+    "start": 1853,
+    "end": 1858
+  },
+  {
+    "text": "G",
+    "label": "PER",
+    "score": 0.5858608484268188,
+    "start": 1862,
+    "end": 1863
+  },
+  {
+    "text": "Honerlage",
+    "label": "PER",
+    "score": 0.9701836109161377,
+    "start": 2223,
+    "end": 2232
+  },
+  {
+    "text": "teutschlande",
+    "label": "LOC",
+    "score": 0.9794413447380066,
+    "start": 2323,
+    "end": 2335
+  },
+  {
+    "text": "Eppishausen",
+    "label": "LOC",
+    "score": 0.9916039109230042,
+    "start": 2375,
+    "end": 2386
+  },
+  {
+    "text": "J",
+    "label": "LOC",
+    "score": 0.9775577783584595,
+    "start": 2420,
+    "end": 2421
+  },
+  {
+    "text": "##vLaßzberg",
+    "label": "LOC",
+    "score": 0.9459193348884583,
+    "start": 2421,
+    "end": 2430
+  },
+  {
+    "text": "Constantz",
+    "label": "PER",
+    "score": 0.9213091135025024,
+    "start": 2437,
+    "end": 2446
+  },
+  {
+    "text": "Jos. von Laßberg",
+    "label": "PER",
+    "score": 0.9993295669555664,
+    "start": 2461,
+    "end": 2477
+  }
+]

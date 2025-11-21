@@ -1,0 +1,212 @@
+[
+  {
+    "text": "Baron",
+    "label": "PER",
+    "score": 0.9998544454574585,
+    "start": 5,
+    "end": 10
+  },
+  {
+    "text": "May",
+    "label": "PER",
+    "score": 0.999011754989624,
+    "start": 115,
+    "end": 118
+  },
+  {
+    "text": "Polen",
+    "label": "LOC",
+    "score": 0.9999743700027466,
+    "start": 410,
+    "end": 415
+  },
+  {
+    "text": "Lachmanns",
+    "label": "PER",
+    "score": 0.9999935626983643,
+    "start": 641,
+    "end": 650
+  },
+  {
+    "text": "Froehlich",
+    "label": "PER",
+    "score": 0.8293212652206421,
+    "start": 772,
+    "end": 781
+  },
+  {
+    "text": "L.",
+    "label": "PER",
+    "score": 0.8157612681388855,
+    "start": 790,
+    "end": 792
+  },
+  {
+    "text": "Spiri talia theotisca",
+    "label": "MISC",
+    "score": 0.9511422514915466,
+    "start": 1084,
+    "end": 1105
+  },
+  {
+    "text": "Bresslau",
+    "label": "PER",
+    "score": 0.9541605114936829,
+    "start": 1162,
+    "end": 1170
+  },
+  {
+    "text": "Grass",
+    "label": "PER",
+    "score": 0.9999762773513794,
+    "start": 1172,
+    "end": 1177
+  },
+  {
+    "text": "Wessobr",
+    "label": "PER",
+    "score": 0.9899915456771851,
+    "start": 1230,
+    "end": 1237
+  },
+  {
+    "text": "Massmann",
+    "label": "PER",
+    "score": 0.9999691247940063,
+    "start": 1254,
+    "end": 1262
+  },
+  {
+    "text": "Berlin",
+    "label": "LOC",
+    "score": 0.9956134557723999,
+    "start": 1265,
+    "end": 1271
+  },
+  {
+    "text": "Schmidtsche Buchhdlg",
+    "label": "PER",
+    "score": 0.9719962179660797,
+    "start": 1273,
+    "end": 1293
+  },
+  {
+    "text": "Neumuoz",
+    "label": "PER",
+    "score": 0.9917098879814148,
+    "start": 1442,
+    "end": 1449
+  },
+  {
+    "text": "Adê",
+    "label": "PER",
+    "score": 0.498321533203125,
+    "start": 1936,
+    "end": 1939
+  },
+  {
+    "text": "Sol",
+    "label": "PER",
+    "score": 0.9982538819313049,
+    "start": 2041,
+    "end": 2044
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9996036887168884,
+    "start": 2220,
+    "end": 2226
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9999364614486694,
+    "start": 2233,
+    "end": 2239
+  },
+  {
+    "text": "michel",
+    "label": "PER",
+    "score": 0.9951605200767517,
+    "start": 2355,
+    "end": 2361
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9999871253967285,
+    "start": 2368,
+    "end": 2374
+  },
+  {
+    "text": "Al",
+    "label": "PER",
+    "score": 0.9040536284446716,
+    "start": 2551,
+    "end": 2553
+  },
+  {
+    "text": "Schoenest",
+    "label": "PER",
+    "score": 0.9370353817939758,
+    "start": 2614,
+    "end": 2623
+  },
+  {
+    "text": "Sol",
+    "label": "PER",
+    "score": 0.995246946811676,
+    "start": 2752,
+    "end": 2755
+  },
+  {
+    "text": "Sol",
+    "label": "PER",
+    "score": 0.9909183979034424,
+    "start": 2812,
+    "end": 2815
+  },
+  {
+    "text": "vrouwen",
+    "label": "PER",
+    "score": 0.8322195410728455,
+    "start": 3530,
+    "end": 3537
+  },
+  {
+    "text": "Waz",
+    "label": "PER",
+    "score": 0.9311788082122803,
+    "start": 4734,
+    "end": 4737
+  },
+  {
+    "text": "Wan",
+    "label": "PER",
+    "score": 0.8206928968429565,
+    "start": 4874,
+    "end": 4877
+  },
+  {
+    "text": "Eppishausen",
+    "label": "LOC",
+    "score": 0.8308982849121094,
+    "start": 5070,
+    "end": 5081
+  },
+  {
+    "text": "Wilhelm Wackernagel",
+    "label": "PER",
+    "score": 0.9878228306770325,
+    "start": 5167,
+    "end": 5186
+  },
+  {
+    "text": "Berlin",
+    "label": "LOC",
+    "score": 0.9992305040359497,
+    "start": 5188,
+    "end": 5194
+  }
+]

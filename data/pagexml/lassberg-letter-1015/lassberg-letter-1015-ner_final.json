@@ -1,0 +1,1157 @@
+{
+  "letter_id": "1015",
+  "title": "Letter 1015 — done_lassberg-letter-1015",
+  "entities": [
+    {
+      "text": "Constanz",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 18,
+        "end": 26
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Constanz",
+            "label": "loc",
+            "score": 0.8401000000000001,
+            "start": 18,
+            "end": 26
+          },
+          {
+            "model": "flair_base",
+            "text": "Constanz",
+            "label": "PER",
+            "score": 0.9979325532913208,
+            "start": 18,
+            "end": 26
+          },
+          {
+            "model": "flair_large",
+            "text": "Constanz",
+            "label": "LOC",
+            "score": 0.9999288320541382,
+            "start": 18,
+            "end": 26
+          },
+          {
+            "model": "hf_default",
+            "text": "Constanz",
+            "label": "LOC",
+            "score": 0.9967320561408997,
+            "start": 18,
+            "end": 26
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "30 July 1825",
+      "target_label": "TIME",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 30,
+        "end": 42
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "30 July 1825",
+            "label": "time",
+            "score": 0.8491,
+            "start": 30,
+            "end": 42
+          },
+          {
+            "model": "hf_default",
+            "text": "30. July 1825",
+            "label": "time",
+            "score": 0.7985,
+            "start": 2447,
+            "end": 2460
+          }
+        ],
+        "vote_count": 2
+      }
+    },
+    {
+      "text": "H. Registrator Rosenlächer",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 99,
+        "end": 125
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. Registrator Rosenlächer",
+            "label": "pers",
+            "score": 0.9573,
+            "start": 99,
+            "end": 125
+          },
+          {
+            "model": "flair_base",
+            "text": "Rosenlächer",
+            "label": "PER",
+            "score": 0.999850869178772,
+            "start": 114,
+            "end": 125
+          }
+        ],
+        "vote_count": 2
+      }
+    },
+    {
+      "text": "Worblingen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 355,
+        "end": 365
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Worblingen",
+            "label": "loc",
+            "score": 0.9495999999999999,
+            "start": 355,
+            "end": 365
+          },
+          {
+            "model": "flair_base",
+            "text": "Worblingen",
+            "label": "LOC",
+            "score": 0.9922215342521667,
+            "start": 355,
+            "end": 365
+          },
+          {
+            "model": "flair_large",
+            "text": "Worblingen",
+            "label": "LOC",
+            "score": 0.9999934434890747,
+            "start": 355,
+            "end": 365
+          },
+          {
+            "model": "hf_default",
+            "text": "Worblingen",
+            "label": "LOC",
+            "score": 0.9918778538703918,
+            "start": 355,
+            "end": 365
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "H. v. Soumard",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 383,
+        "end": 396
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. v. Soumard",
+            "label": "pers",
+            "score": 0.9693999999999999,
+            "start": 383,
+            "end": 396
+          },
+          {
+            "model": "flair_base",
+            "text": "H. v. Soumard",
+            "label": "PER",
+            "score": 0.9959690968195597,
+            "start": 383,
+            "end": 396
+          },
+          {
+            "model": "flair_large",
+            "text": "H. v. Soumard",
+            "label": "PER",
+            "score": 0.9999883572260538,
+            "start": 383,
+            "end": 396
+          },
+          {
+            "model": "hf_default",
+            "text": "H. v. Soumard",
+            "label": "PER",
+            "score": 0.9547984004020691,
+            "start": 383,
+            "end": 396
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Erik Holbein",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 577,
+        "end": 589
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Erik Holbein",
+            "label": "pers",
+            "score": 0.9715,
+            "start": 577,
+            "end": 589
+          },
+          {
+            "model": "flair_base",
+            "text": "Erik Holbein",
+            "label": "PER",
+            "score": 0.9995847642421722,
+            "start": 577,
+            "end": 589
+          },
+          {
+            "model": "flair_large",
+            "text": "Erik Holbein",
+            "label": "PER",
+            "score": 0.9999969601631165,
+            "start": 577,
+            "end": 589
+          },
+          {
+            "model": "hf_default",
+            "text": "Erik Holbein",
+            "label": "PER",
+            "score": 0.9998124241828918,
+            "start": 577,
+            "end": 589
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Ravensburg",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 634,
+        "end": 644
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Ravensburg",
+            "label": "loc",
+            "score": 0.9608,
+            "start": 634,
+            "end": 644
+          },
+          {
+            "model": "flair_base",
+            "text": "Ravensburg",
+            "label": "LOC",
+            "score": 0.9998760223388672,
+            "start": 634,
+            "end": 644
+          },
+          {
+            "model": "flair_large",
+            "text": "Ravensburg",
+            "label": "LOC",
+            "score": 0.9999935626983643,
+            "start": 634,
+            "end": 644
+          },
+          {
+            "model": "hf_default",
+            "text": "Ravensburg",
+            "label": "LOC",
+            "score": 0.9994252920150757,
+            "start": 634,
+            "end": 644
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "H. Albr. Hegner",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 671,
+        "end": 686
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. Albr. Hegner",
+            "label": "pers",
+            "score": 0.9784999999999999,
+            "start": 671,
+            "end": 686
+          },
+          {
+            "model": "flair_base",
+            "text": "Albr",
+            "label": "PER",
+            "score": 0.9811245203018188,
+            "start": 674,
+            "end": 678
+          },
+          {
+            "model": "flair_base",
+            "text": "Hegner",
+            "label": "PER",
+            "score": 0.9973934888839722,
+            "start": 680,
+            "end": 686
+          },
+          {
+            "model": "hf_default",
+            "text": ". Albr. Hegner",
+            "label": "PER",
+            "score": 0.9021144509315491,
+            "start": 672,
+            "end": 686
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Schiener Berg",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 793,
+        "end": 806
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Schiener Berg",
+            "label": "loc",
+            "score": 0.6416,
+            "start": 793,
+            "end": 806
+          },
+          {
+            "model": "flair_base",
+            "text": "Schiener Berg",
+            "label": "LOC",
+            "score": 0.7942376434803009,
+            "start": 793,
+            "end": 806
+          },
+          {
+            "model": "flair_large",
+            "text": "Schiener Berg",
+            "label": "LOC",
+            "score": 0.9997366666793823,
+            "start": 793,
+            "end": 806
+          },
+          {
+            "model": "hf_default",
+            "text": "Schiener Berg",
+            "label": "LOC",
+            "score": 0.9995895624160767,
+            "start": 793,
+            "end": 806
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Schrotzburg",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 828,
+        "end": 839
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Schrotzburg",
+            "label": "loc",
+            "score": 0.9497,
+            "start": 828,
+            "end": 839
+          },
+          {
+            "model": "flair_large",
+            "text": "Schrotzburg",
+            "label": "LOC",
+            "score": 0.999966025352478,
+            "start": 828,
+            "end": 839
+          },
+          {
+            "model": "hf_default",
+            "text": "Schrotzburg",
+            "label": "LOC",
+            "score": 0.9994493126869202,
+            "start": 828,
+            "end": 839
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "Diepoldsburg",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1044,
+        "end": 1056
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Diepoldsburg",
+            "label": "loc",
+            "score": 0.9531000000000001,
+            "start": 1044,
+            "end": 1056
+          },
+          {
+            "model": "flair_base",
+            "text": "Diepoldsburg",
+            "label": "LOC",
+            "score": 0.7638749480247498,
+            "start": 1044,
+            "end": 1056
+          },
+          {
+            "model": "flair_large",
+            "text": "Diepoldsburg",
+            "label": "LOC",
+            "score": 0.9999934434890747,
+            "start": 1044,
+            "end": 1056
+          },
+          {
+            "model": "hf_default",
+            "text": "Diepoldsburg",
+            "label": "LOC",
+            "score": 0.9895843863487244,
+            "start": 1044,
+            "end": 1056
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Berthold u. Erchanger",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1069,
+        "end": 1090
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Berthold u. Erchanger",
+            "label": "pers",
+            "score": 0.8461,
+            "start": 1069,
+            "end": 1090
+          },
+          {
+            "model": "flair_base",
+            "text": "Berthold u",
+            "label": "PER",
+            "score": 0.9199945032596588,
+            "start": 1069,
+            "end": 1079
+          },
+          {
+            "model": "flair_base",
+            "text": "Erchanger",
+            "label": "PER",
+            "score": 0.8976259231567383,
+            "start": 1081,
+            "end": 1090
+          },
+          {
+            "model": "flair_large",
+            "text": "Berthold",
+            "label": "PER",
+            "score": 0.9999918937683105,
+            "start": 1069,
+            "end": 1077
+          },
+          {
+            "model": "flair_large",
+            "text": "Erchanger",
+            "label": "PER",
+            "score": 0.9983187913894653,
+            "start": 1081,
+            "end": 1090
+          },
+          {
+            "model": "hf_default",
+            "text": "Berthold u. Erchanger",
+            "label": "PER",
+            "score": 0.9721933007240295,
+            "start": 1069,
+            "end": 1090
+          }
+        ],
+        "vote_count": 6
+      }
+    },
+    {
+      "text": "Bischof Salomon III",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1106,
+        "end": 1125
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Bischof Salomon III",
+            "label": "pers",
+            "score": 0.8592,
+            "start": 1106,
+            "end": 1125
+          },
+          {
+            "model": "flair_base",
+            "text": "Salomon III",
+            "label": "PER",
+            "score": 0.9661228656768799,
+            "start": 1114,
+            "end": 1125
+          },
+          {
+            "model": "flair_large",
+            "text": "Salomon III",
+            "label": "PER",
+            "score": 0.9999950528144836,
+            "start": 1114,
+            "end": 1125
+          },
+          {
+            "model": "hf_default",
+            "text": "Salomon III",
+            "label": "PER",
+            "score": 0.9995630979537964,
+            "start": 1114,
+            "end": 1125
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Schinen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1181,
+        "end": 1188
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_large",
+            "text": "Schinen",
+            "label": "LOC",
+            "score": 0.9998667240142822,
+            "start": 1181,
+            "end": 1188
+          },
+          {
+            "model": "hf_default",
+            "text": "Schinen",
+            "label": "LOC",
+            "score": 0.9923649430274963,
+            "start": 1181,
+            "end": 1188
+          }
+        ],
+        "vote_count": 2
+      }
+    },
+    {
+      "text": "Stein",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1541,
+        "end": 1546
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Stein",
+            "label": "loc",
+            "score": 0.9412999999999999,
+            "start": 1541,
+            "end": 1546
+          },
+          {
+            "model": "flair_large",
+            "text": "Stein",
+            "label": "LOC",
+            "score": 0.9997488856315613,
+            "start": 1541,
+            "end": 1546
+          },
+          {
+            "model": "hf_default",
+            "text": "Stein",
+            "label": "LOC",
+            "score": 0.9997488856315613,
+            "start": 1541,
+            "end": 1546
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "H. Pfarrer Kirchhofer",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 1556,
+        "end": 1577
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. Pfarrer Kirchhofer",
+            "label": "pers",
+            "score": 0.9605,
+            "start": 1556,
+            "end": 1577
+          },
+          {
+            "model": "flair_base",
+            "text": "H",
+            "label": "PER",
+            "score": 0.9324700832366943,
+            "start": 1556,
+            "end": 1557
+          },
+          {
+            "model": "flair_base",
+            "text": "Kirchhofer",
+            "label": "PER",
+            "score": 0.999976634979248,
+            "start": 1567,
+            "end": 1577
+          },
+          {
+            "model": "flair_large",
+            "text": "Kirchhofer",
+            "label": "PER",
+            "score": 0.9999836683273315,
+            "start": 1567,
+            "end": 1577
+          },
+          {
+            "model": "hf_default",
+            "text": "Kirchhofer",
+            "label": "PER",
+            "score": 0.9962582588195801,
+            "start": 1567,
+            "end": 1577
+          }
+        ],
+        "vote_count": 5
+      }
+    },
+    {
+      "text": "Neugarts Cod. diplom. Alamanniae",
+      "target_label": "LIT_WORK",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 1731,
+        "end": 1763
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Neugarts",
+            "label": "loc",
+            "score": 0.8929,
+            "start": 1731,
+            "end": 1739
+          },
+          {
+            "model": "flair_base",
+            "text": "Neugarts",
+            "label": "LOC",
+            "score": 0.4857714772224426,
+            "start": 1731,
+            "end": 1739
+          },
+          {
+            "model": "flair_large",
+            "text": "Neugarts",
+            "label": "PER",
+            "score": 0.9984601736068726,
+            "start": 1731,
+            "end": 1739
+          },
+          {
+            "model": "hf_default",
+            "text": "Neugarts",
+            "label": "LOC",
+            "score": 0.9318928122520447,
+            "start": 1731,
+            "end": 1739
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Codex trad. S. Gallensium",
+      "target_label": "LIT_OBJECT",
+      "added_by_llm": true,
+      "char_span": {
+        "start": 1701,
+        "end": 1726
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_large",
+            "text": "Codex trad. S. Gallensium",
+            "label": "MISC",
+            "score": 0.9690786480903626,
+            "start": 1701,
+            "end": 1726
+          }
+        ],
+        "vote_count": 1
+      }
+    },
+    {
+      "text": "H. Oberst Honerlage",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2223,
+        "end": 2232
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "H. Oberst Honerlage",
+            "label": "pers",
+            "score": 0.8994,
+            "start": 2213,
+            "end": 2232
+          },
+          {
+            "model": "flair_base",
+            "text": "Honerlage",
+            "label": "PER",
+            "score": 0.9955487251281738,
+            "start": 2223,
+            "end": 2232
+          },
+          {
+            "model": "flair_large",
+            "text": "Honerlage",
+            "label": "PER",
+            "score": 0.9999827146530151,
+            "start": 2223,
+            "end": 2232
+          },
+          {
+            "model": "hf_default",
+            "text": "Honerlage",
+            "label": "PER",
+            "score": 0.9701836109161377,
+            "start": 2223,
+            "end": 2232
+          }
+        ],
+        "vote_count": 4
+      }
+    },
+    {
+      "text": "Eppishausen",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2375,
+        "end": 2386
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Eppishausen",
+            "label": "loc",
+            "score": 0.8809999999999999,
+            "start": 2375,
+            "end": 2386
+          },
+          {
+            "model": "flair_large",
+            "text": "Eppishausen",
+            "label": "LOC",
+            "score": 0.9999476671218872,
+            "start": 2375,
+            "end": 2386
+          },
+          {
+            "model": "hf_default",
+            "text": "Eppishausen",
+            "label": "LOC",
+            "score": 0.9916039109230042,
+            "start": 2375,
+            "end": 2386
+          }
+        ],
+        "vote_count": 3
+      }
+    },
+    {
+      "text": "JvLaßzberg",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2407,
+        "end": 2430
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Irem Freunde JvLaßzberg",
+            "label": "pers",
+            "score": 0.6208,
+            "start": 2407,
+            "end": 2430
+          },
+          {
+            "model": "flair_base",
+            "text": "JvLaßzberg",
+            "label": "PER",
+            "score": 0.5035436153411865,
+            "start": 2420,
+            "end": 2430
+          },
+          {
+            "model": "flair_large",
+            "text": "JvLaßzberg",
+            "label": "LOC",
+            "score": 0.9993467926979065,
+            "start": 2420,
+            "end": 2430
+          },
+          {
+            "model": "hf_default",
+            "text": "J",
+            "label": "LOC",
+            "score": 0.9775577783584595,
+            "start": 2420,
+            "end": 2421
+          },
+          {
+            "model": "hf_default",
+            "text": "##vLaßzberg",
+            "label": "LOC",
+            "score": 0.9459193348884583,
+            "start": 2421,
+            "end": 2430
+          }
+        ],
+        "vote_count": 5
+      }
+    },
+    {
+      "text": "Constantz",
+      "target_label": "LOC",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2437,
+        "end": 2446
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "flair_base",
+            "text": "Constantz",
+            "label": "PER",
+            "score": 0.9932409524917603,
+            "start": 2437,
+            "end": 2446
+          },
+          {
+            "model": "flair_large",
+            "text": "Constantz",
+            "label": "LOC",
+            "score": 0.9997405409812927,
+            "start": 2437,
+            "end": 2446
+          }
+        ],
+        "vote_count": 2
+      }
+    },
+    {
+      "text": "Jos. von Laßberg",
+      "target_label": "PER",
+      "added_by_llm": false,
+      "char_span": {
+        "start": 2461,
+        "end": 2477
+      },
+      "evidence": {
+        "mentions": [
+          {
+            "model": "hmbert",
+            "text": "Jos. von Laßberg",
+            "label": "pers",
+            "score": 0.9584,
+            "start": 2461,
+            "end": 2477
+          },
+          {
+            "model": "flair_base",
+            "text": "Jos",
+            "label": "PER",
+            "score": 0.7731381058692932,
+            "start": 2461,
+            "end": 2464
+          },
+          {
+            "model": "flair_base",
+            "text": "von Laßberg",
+            "label": "PER",
+            "score": 0.8612395823001862,
+            "start": 2466,
+            "end": 2477
+          },
+          {
+            "model": "hf_default",
+            "text": "Jos. von Laßberg",
+            "label": "PER",
+            "score": 0.9993295669555664,
+            "start": 2461,
+            "end": 2477
+          }
+        ],
+        "vote_count": 4
+      }
+    }
+  ],
+  "dropped": [
+    {
+      "text": "Inen",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_large",
+        "score": 0.997271716594696
+      }
+    },
+    {
+      "text": "H",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8507768511772156
+      }
+    },
+    {
+      "text": "I.",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.7175847291946411
+      }
+    },
+    {
+      "text": "Alamanniae",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.9860168397426605
+      }
+    },
+    {
+      "text": "Verba",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8215187788009644
+      }
+    },
+    {
+      "text": "Gallone",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "flair_base",
+        "score": 0.8984000000000001
+      }
+    },
+    {
+      "text": "Gringi",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.57
+      }
+    },
+    {
+      "text": "Par Jaren",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.3464
+      }
+    },
+    {
+      "text": "alten",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.7383
+      }
+    },
+    {
+      "text": "Hattinger",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.6759000000000001
+      }
+    },
+    {
+      "text": "I. pag. 482",
+      "label": "TIME",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.7019
+      }
+    },
+    {
+      "text": "10 Jar hunderts",
+      "label": "TIME",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.6106
+      }
+    },
+    {
+      "text": "v",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.7364306449890137
+      }
+    },
+    {
+      "text": "G",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.6699182391166687
+      }
+    },
+    {
+      "text": "Gallo",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.6601454615592957
+      }
+    },
+    {
+      "text": "G",
+      "label": "PER",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.5858608484268188
+      }
+    },
+    {
+      "text": "teutschlande",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.9794413447380066
+      }
+    },
+    {
+      "text": "J",
+      "label": "LOC",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hf_default",
+        "score": 0.9775577783584595
+      }
+    },
+    {
+      "text": "Aug",
+      "label": "TIME",
+      "reason": "out of scope",
+      "evidence": {
+        "model": "hmbert",
+        "score": 0.5434
+      }
+    }
+  ]
+}

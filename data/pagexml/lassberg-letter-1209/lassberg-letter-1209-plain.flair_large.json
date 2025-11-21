@@ -1,0 +1,135 @@
+[
+  {
+    "text": "Polen",
+    "label": "LOC",
+    "score": 0.9999933242797852,
+    "start": 410,
+    "end": 415
+  },
+  {
+    "text": "Lachmanns",
+    "label": "PER",
+    "score": 0.9999774694442749,
+    "start": 641,
+    "end": 650
+  },
+  {
+    "text": "Froehlich",
+    "label": "PER",
+    "score": 0.9999725818634033,
+    "start": 772,
+    "end": 781
+  },
+  {
+    "text": "A",
+    "label": "PER",
+    "score": 0.9993190765380859,
+    "start": 787,
+    "end": 788
+  },
+  {
+    "text": "L. Follen",
+    "label": "PER",
+    "score": 0.9987249076366425,
+    "start": 790,
+    "end": 799
+  },
+  {
+    "text": "Spiri talia theotisca",
+    "label": "MISC",
+    "score": 0.9999533096949259,
+    "start": 1084,
+    "end": 1105
+  },
+  {
+    "text": "Bresslau",
+    "label": "LOC",
+    "score": 0.9999978542327881,
+    "start": 1162,
+    "end": 1170
+  },
+  {
+    "text": "Grass",
+    "label": "ORG",
+    "score": 0.4821532368659973,
+    "start": 1172,
+    "end": 1177
+  },
+  {
+    "text": "Wessobrunner Gebetes",
+    "label": "MISC",
+    "score": 0.9795531332492828,
+    "start": 1202,
+    "end": 1222
+  },
+  {
+    "text": "Massmann",
+    "label": "PER",
+    "score": 0.9999423027038574,
+    "start": 1254,
+    "end": 1262
+  },
+  {
+    "text": "Berlin",
+    "label": "LOC",
+    "score": 0.9999898672103882,
+    "start": 1265,
+    "end": 1271
+  },
+  {
+    "text": "Schmidtsche Buchhdlg",
+    "label": "ORG",
+    "score": 0.9999158382415771,
+    "start": 1273,
+    "end": 1293
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9999678134918213,
+    "start": 2220,
+    "end": 2226
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9999665021896362,
+    "start": 2233,
+    "end": 2239
+  },
+  {
+    "text": "michel",
+    "label": "PER",
+    "score": 0.9999492168426514,
+    "start": 2355,
+    "end": 2361
+  },
+  {
+    "text": "Michel",
+    "label": "PER",
+    "score": 0.9999678134918213,
+    "start": 2368,
+    "end": 2374
+  },
+  {
+    "text": "Eppishausen",
+    "label": "LOC",
+    "score": 0.9998531341552734,
+    "start": 5070,
+    "end": 5081
+  },
+  {
+    "text": "Wilhelm Wackernagel",
+    "label": "PER",
+    "score": 0.9999960660934448,
+    "start": 5167,
+    "end": 5186
+  },
+  {
+    "text": "Berlin",
+    "label": "LOC",
+    "score": 0.99998939037323,
+    "start": 5188,
+    "end": 5194
+  }
+]

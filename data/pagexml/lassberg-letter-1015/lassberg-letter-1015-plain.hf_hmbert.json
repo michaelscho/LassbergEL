@@ -1,0 +1,219 @@
+[
+  {
+    "text": "Constanz",
+    "label": "loc",
+    "score": 0.8401000000000001,
+    "start": 18,
+    "end": 26
+  },
+  {
+    "text": "30 July 1825",
+    "label": "time",
+    "score": 0.8491,
+    "start": 30,
+    "end": 42
+  },
+  {
+    "text": "H. Registrator Rosenlächer",
+    "label": "pers",
+    "score": 0.9573,
+    "start": 99,
+    "end": 125
+  },
+  {
+    "text": "Worblingen",
+    "label": "loc",
+    "score": 0.9495999999999999,
+    "start": 355,
+    "end": 365
+  },
+  {
+    "text": "Freunde",
+    "label": "pers",
+    "score": 0.6078,
+    "start": 375,
+    "end": 382
+  },
+  {
+    "text": "H. v. Soumard",
+    "label": "pers",
+    "score": 0.9693999999999999,
+    "start": 383,
+    "end": 396
+  },
+  {
+    "text": "Erik Holbein",
+    "label": "pers",
+    "score": 0.9715,
+    "start": 577,
+    "end": 589
+  },
+  {
+    "text": "Ravensburg",
+    "label": "loc",
+    "score": 0.9608,
+    "start": 634,
+    "end": 644
+  },
+  {
+    "text": "H. Albr. Hegner",
+    "label": "pers",
+    "score": 0.9784999999999999,
+    "start": 671,
+    "end": 686
+  },
+  {
+    "text": "Schiener Berg",
+    "label": "loc",
+    "score": 0.6416,
+    "start": 793,
+    "end": 806
+  },
+  {
+    "text": "Schrotzburg",
+    "label": "loc",
+    "score": 0.9497,
+    "start": 828,
+    "end": 839
+  },
+  {
+    "text": "Par Jaren",
+    "label": "loc",
+    "score": 0.3464,
+    "start": 860,
+    "end": 869
+  },
+  {
+    "text": "alten",
+    "label": "pers",
+    "score": 0.7383,
+    "start": 955,
+    "end": 960
+  },
+  {
+    "text": "Hattinger",
+    "label": "pers",
+    "score": 0.6759000000000001,
+    "start": 961,
+    "end": 970
+  },
+  {
+    "text": "I. pag. 482",
+    "label": "time",
+    "score": 0.7019,
+    "start": 1001,
+    "end": 1012
+  },
+  {
+    "text": "Diepoldsburg",
+    "label": "loc",
+    "score": 0.9531000000000001,
+    "start": 1044,
+    "end": 1056
+  },
+  {
+    "text": "Berthold u. Erchanger",
+    "label": "pers",
+    "score": 0.8461,
+    "start": 1069,
+    "end": 1090
+  },
+  {
+    "text": "Bischof Salomon III",
+    "label": "pers",
+    "score": 0.8592,
+    "start": 1106,
+    "end": 1125
+  },
+  {
+    "text": "10 Jar hunderts",
+    "label": "time",
+    "score": 0.6106,
+    "start": 1398,
+    "end": 1413
+  },
+  {
+    "text": "Stein",
+    "label": "loc",
+    "score": 0.9412999999999999,
+    "start": 1541,
+    "end": 1546
+  },
+  {
+    "text": "H. Pfarrer Kirchhofer",
+    "label": "pers",
+    "score": 0.9605,
+    "start": 1556,
+    "end": 1577
+  },
+  {
+    "text": "Neugarts",
+    "label": "loc",
+    "score": 0.8929,
+    "start": 1731,
+    "end": 1739
+  },
+  {
+    "text": "Alamanniae",
+    "label": "pers",
+    "score": 0.6265,
+    "start": 1753,
+    "end": 1763
+  },
+  {
+    "text": "Gringi",
+    "label": "pers",
+    "score": 0.57,
+    "start": 1795,
+    "end": 1801
+  },
+  {
+    "text": "Gallone",
+    "label": "pers",
+    "score": 0.8984000000000001,
+    "start": 1853,
+    "end": 1860
+  },
+  {
+    "text": "H. Oberst Honerlage",
+    "label": "pers",
+    "score": 0.8994,
+    "start": 2213,
+    "end": 2232
+  },
+  {
+    "text": "Eppishausen",
+    "label": "loc",
+    "score": 0.8809999999999999,
+    "start": 2375,
+    "end": 2386
+  },
+  {
+    "text": "Irem Freunde JvLaßzberg",
+    "label": "pers",
+    "score": 0.6208,
+    "start": 2407,
+    "end": 2430
+  },
+  {
+    "text": "30. July 1825",
+    "label": "time",
+    "score": 0.7985,
+    "start": 2447,
+    "end": 2460
+  },
+  {
+    "text": "Jos. von Laßberg",
+    "label": "pers",
+    "score": 0.9584,
+    "start": 2461,
+    "end": 2477
+  },
+  {
+    "text": "Aug",
+    "label": "time",
+    "score": 0.5434,
+    "start": 2489,
+    "end": 2492
+  }
+]
