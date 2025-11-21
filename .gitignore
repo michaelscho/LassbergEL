@@ -1,2 +1,4 @@
 .venv/
 .german_large/
+data/register/VD-Bib-Metadata.parquet
+data/register/vd_works.jsonl
