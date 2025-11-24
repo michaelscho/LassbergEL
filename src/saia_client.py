@@ -37,7 +37,7 @@ class SaiaChatClient:
         *,
         chat_path: str = "/chat/completions",
         models_path: str = "/models",
-        timeout: int = 8000,
+        timeout: int = 80,
         session: Optional[requests.Session] = None,
     ) -> None:
         self.base_url = (base_url or os.environ.get("SAIA_BASE_URL") or "https://chat-ai.academiccloud.de/v1").rstrip("/")

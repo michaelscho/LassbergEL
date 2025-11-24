@@ -104,7 +104,7 @@ def main() -> None:
     parser.add_argument("--max-tokens", type=int, default=8192)
     parser.add_argument("--max-per-model", type=int, default=None,
                         help="If set, cap NER items per model included in the adjudication prompt.")
-    parser.add_argument("--llm-timeout", type=int, default=800,
+    parser.add_argument("--llm-timeout", type=int, default=80,
                         help="HTTP timeout (seconds) for SAIA requests.")
 
     # Register files for linking
@@ -144,7 +144,7 @@ def main() -> None:
         print("No documents selected. Exiting.")
         return
 
-    export_root = Path(args.export_root) if args.export_root else Path(config.export_folder)
+    export_root = (Path(__file__).parent / ".." / "data" / "pagexml").resolve()    
     print(f"Reading PAGE-XML from: {export_root.resolve()}\n")
 
     # 2) SAIA client
@@ -209,6 +209,7 @@ def main() -> None:
             continue
 
         # 5) LLM adjudication (reuse if exists and not forced)
+        print("Sending to LLM.")
         try:
             if ner_final_path.exists() and not args.force_llm:
                 adjudicated = _load_json(ner_final_path)
@@ -226,6 +227,7 @@ def main() -> None:
                     max_per_model=args.max_per_model,
                 )
                 _write_json(res.source_dir, ner_final_path.name, adjudicated)
+                print("Finished LLM adjunction.")
         except Exception as e:
             print(f"- {doc.id} ({doc.title}): LLM adjudication failed: {e}")
             continue

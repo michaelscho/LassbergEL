@@ -28,12 +28,17 @@ from typing import Any, Dict, List, Optional
 
 from saia_client import SaiaChatClient
 
+from pathlib import Path
 
-# Schema and prompt that preserves offsets
-with open('..\prompts\system_msg_entity_adjucator.txt', 'r', encoding='utf-8') as f:
+script_dir = Path(__file__).parent
+file_path_el_adj = script_dir / '..' / 'prompts' / 'system_msg_entity_adjucator.txt'
+file_path_el_task = script_dir / '..' / 'prompts' / 'task_entity_adjucate.txt'
+
+
+with open(file_path_el_adj.resolve(), 'r', encoding='utf-8') as f:
     SYSTEM_PROMPT_BASE = f.read()
 
-with open('..\prompts\task_entity_adjucator.txt', 'r', encoding='utf-8') as f:
+with open(file_path_el_task.resolve(), 'r', encoding='utf-8') as f:
     TASK = f.read()
 
 SCHEMA_JSON = {

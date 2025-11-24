@@ -7,10 +7,14 @@ import json
 import re
 from lxml import etree as ET
 from rapidfuzz import fuzz
+from pathlib import Path
 
-with open('..\prompts\system_msg_entity_linking.txt', 'r', encoding='utf-8') as f:
+script_dir = Path(__file__).parent
+file_path_el = script_dir / '..' / 'prompts' / 'system_msg_entity_linking.txt'
+
+# 3. Open the file (resolve() fixes the ".." parts)
+with open(file_path_el.resolve(), 'r', encoding='utf-8') as f:
     SYSTEM_MSG = f.read()
-
 
 # Helper functions
 def _read_text(p: Path) -> str:

@@ -84,8 +84,7 @@ def build_line_stream(
     -------
     BuildResult
     """
-    root = Path(export_root) if export_root is not None else Path(config.export_folder)
-    src_dir = (root / f"lassberg-letter-{letter_id}").resolve()
+    src_dir = (Path(__file__).parent / '..' / 'data' / 'pagexml' / f"lassberg-letter-{letter_id}").resolve()
 
     if not src_dir.exists():
         raise FileNotFoundError(f"PAGE-XML folder not found: {src_dir}")

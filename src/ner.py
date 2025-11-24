@@ -174,14 +174,14 @@ def _run_hmbert_generic_ner(text: str, model_id: str, device: str = "cpu",
 def _external_python_for_flair_large() -> Path:
     root = _repo_root()
     if os.name == "nt":
-        py = root / ".german_large" / "Scripts" / "python.exe"
+        py = root / ".german-large" / "Scripts" / "python.exe"
     else:
-        py = root / ".german_large" / "bin" / "python"
+        py = root / ".german-large" / "bin" / "python"
     if not py.exists():
         raise FileNotFoundError(
             f"Flair-large external interpreter not found at: {py}\n"
             "Create it:\n"
-            "  python -m venv .german_large\n"
+            "  python -m venv .german-large\n"
             "  # activate, then:\n"
             "  pip install \"flair==0.13.1\" \"transformers==4.33.3\" \"torch<=2.5.*\""
         )
