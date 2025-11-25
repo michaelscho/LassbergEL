@@ -28,12 +28,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional
 import re
-
 import lxml.etree as LET
 import config
 
 
-# helpers
 
 _ID_RE = re.compile(r"lassberg[-_ ]letter[-_ ](\d+)", re.IGNORECASE)
 

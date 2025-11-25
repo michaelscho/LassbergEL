@@ -1,4 +1,3 @@
-# saia_client.py
 from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Any
@@ -16,17 +15,7 @@ class ChatCompletion:
 class SaiaChatClient:
     """
     Minimal OpenAI-compatible chat client for SAIA.
-
-    SAIA specifics:
-      - Base URL: https://chat-ai.academiccloud.de/v1
-      - Chat path: /chat/completions
-      - Auth: Bearer <API_KEY>
-      - /models uses POST per SAIA docs.
-
-    Env/config:
-      SAIA_BASE_URL (default: https://chat-ai.academiccloud.de/v1)
-      SAIA_API_KEY  (required)
-      SAIA_MODEL    (default: llama-3.3-70b-instruct)
+    (Enhanced for server-side debugging.)
     """
 
     def __init__(
@@ -37,8 +26,9 @@ class SaiaChatClient:
         *,
         chat_path: str = "/chat/completions",
         models_path: str = "/models",
-        timeout: int = 80,
+        timeout: int = 500,
         session: Optional[requests.Session] = None,
+        debug_requests: bool = False,
     ) -> None:
         self.base_url = (base_url or os.environ.get("SAIA_BASE_URL") or "https://chat-ai.academiccloud.de/v1").rstrip("/")
         self.api_key = config.saia_api_key
@@ -47,6 +37,7 @@ class SaiaChatClient:
         self.models_url = f"{self.base_url}{models_path}"
         self.timeout = timeout
         self.session = session or requests.Session()
+        self.debug_requests = debug_requests
 
         if not self.api_key:
             raise ValueError("SAIA_API_KEY is not set (env or pass in).")
@@ -78,8 +69,7 @@ class SaiaChatClient:
         retry_backoff_s: float = 1.0,
     ) -> ChatCompletion:
         """
-        Send a chat completion request (OpenAI-compatible).
-        messages: [{"role":"system"|"user"|"assistant","content":"..."}]
+        Send a chat completion request (OpenAI-compatible) with enhanced debugging.
         """
         payload: Dict[str, Any] = {
             "model": self.model,
@@ -95,6 +85,13 @@ class SaiaChatClient:
         if extra:
             payload.update(extra)
 
+        if self.debug_requests:
+            print(f"\n[SAIA DEBUG] Sending request to: {self.chat_url}")
+            print(f"[SAIA DEBUG] Model: {self.model}, Tokens: {max_tokens}, Temp: {temperature}")
+            truncated_messages = messages[:1] + messages[-1:]
+            print(f"[SAIA DEBUG] Messages (Partial): {json.dumps(truncated_messages)[:500]}...")
+
+
         last_err = None
         for attempt in range(retry + 1):
             try:
@@ -104,10 +101,23 @@ class SaiaChatClient:
                     json=payload,
                     timeout=self.timeout,
                 )
-                if resp.status_code == 429 and attempt < retry:
-                    time.sleep(retry_backoff_s * (attempt + 1))
-                    continue
-                resp.raise_for_status()
+                
+                if resp.status_code >= 400:
+                    err_details = resp.text
+                    print(f"\n[SAIA ERROR - ATTEMPT {attempt+1}/{retry+1}] HTTP {resp.status_code} on POST to {self.chat_url}")
+                    print(f"[SAIA ERROR] Request failed. Server response body:\n--- START RESPONSE ---\n{err_details[:500]}...\n--- END RESPONSE ---")
+                    
+                    if resp.status_code == 429 and attempt < retry:
+                        time.sleep(retry_backoff_s * (attempt + 1))
+                        continue
+                        
+                    resp.raise_for_status() 
+                
+                if self.debug_requests:
+                    print(f"[SAIA DEBUG] Attempt {attempt+1} successful. Status: {resp.status_code}")
+
+
+                resp.raise_for_status() 
                 data = resp.json()
                 content = (
                     data.get("choices", [{}])[0]
@@ -115,12 +125,20 @@ class SaiaChatClient:
                     .get("content", "")
                 )
                 return ChatCompletion(content=content, raw=data)
-            except Exception as e:
+            except requests.exceptions.HTTPError as e:
                 last_err = e
                 if attempt < retry:
                     time.sleep(retry_backoff_s * (attempt + 1))
+                    continue
                 else:
-                    raise
+                    raise RuntimeError(f"SAIA Chat failed after {attempt+1} attempts: HTTPError. Check console for server response body.") from e
+            except Exception as e:
+                last_err = e
+                print(f"\n[SAIA ERROR - ATTEMPT {attempt+1}/{retry+1}] Non-HTTP Error: {type(e).__name__} ({e})")
+                if attempt < retry:
+                    time.sleep(retry_backoff_s * (attempt + 1))
+                else:
+                    raise RuntimeError(f"SAIA Chat failed after {attempt+1} attempts: Non-HTTP Error.") from e
 
         raise RuntimeError(f"Chat failed: {last_err}")
 
@@ -145,4 +163,4 @@ class SaiaChatClient:
         try:
             return json.loads(cc.content)
         except json.JSONDecodeError as e:
-            raise ValueError(f"Model did not return valid JSON: {e}\n---\n{cc.content}")
+            raise ValueError(f"Model did not return valid JSON: {e}\n--- RAW CONTENT ---\n{cc.content[:1000]}...")

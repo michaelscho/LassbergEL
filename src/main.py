@@ -6,23 +6,17 @@ Idempotent: reuses existing JSON outputs unless you force recomputation.
 Artifacts per letter (in the PAGE-XML folder):
   - lassberg-letter-<ID>-tei-lines.txt
   - lassberg-letter-<ID>-plain.txt
-  - lassberg-letter-<ID>-ner_raw.json         (raw outputs from 4 NER models)
-  - lassberg-letter-<ID>-ner_final.json       (LLM-adjudicated, normalized entities)
-  - lassberg-letter-<ID>-entities-linked.json (IDs linked to registers/GND/Wikidata)
+  - lassberg-letter-<ID>-ner_raw.json     (raw outputs from 4 NER models)
+  - lassberg-letter-<ID>-ner_final.json    (LLM-adjudicated, normalized entities)
+  - lassberg-letter-<ID>-entities-linked.json (IDs linked to local/GND/Wikidata)
 
 Usage
 -----
-Interactive selection, full pipeline (reuse if exists):
-  python main_build.py
+Run locally with Ollama (Llama 3.1 8B):
+  python main_build.py --local-llm --ollama-model llama3.1:8b --llm-timeout 240 --max-per-model 100
 
-Force recompute NER+LLM for selected docs:
-  python main_build.py --force-ner --force-llm
-
-Always run Flair-large in external env:
-  python main_build.py --flair-large-python "C:/.../.german_large/Scripts/python.exe"
-
-GPU for HF/hmBERT (Flair runs on CPU/GPU as requested):
-  python main_build.py --device gpu
+Run with remote SAIA API (default):
+  python main_build.py --llm-timeout 300
 """
 
 from __future__ import annotations
@@ -41,8 +35,10 @@ from pagexml_to_tei import build_line_stream, derive_letter_id_from_title
 # NER + LLM adjudication + linking
 from ner import run_ner_on_text_file
 from saia_client import SaiaChatClient
-from llm_adjucate import adjudicate_entities_with_client   
+from llm_adjucate import adjudicate_entities_with_client  
 from link_entities_llm import link_entities_with_llm
+from ollama_client import OllamaChatClient
+from external_lookup import lookup_unlinked_entities
 
 
 def _write_text_artifacts(letter_id: str, dest_dir: Path, tei_lines: str, plain_text: str) -> None:
@@ -71,7 +67,7 @@ def main() -> None:
     parser.add_argument("--match-on", choices=["title", "id"], default="title")
     parser.add_argument("--case-sensitive", action="store_true")
 
-    # Interactive filters & sorting
+    # Interactive filters and sorting
     parser.add_argument("--exclude-done", action="store_true")
     parser.add_argument("--only-done", action="store_true")
     parser.add_argument("--filter", type=str, default=None)
@@ -104,8 +100,13 @@ def main() -> None:
     parser.add_argument("--max-tokens", type=int, default=8192)
     parser.add_argument("--max-per-model", type=int, default=None,
                         help="If set, cap NER items per model included in the adjudication prompt.")
-    parser.add_argument("--llm-timeout", type=int, default=80,
+    parser.add_argument("--llm-timeout", type=int, default=500,
                         help="HTTP timeout (seconds) for SAIA requests.")
+    
+    # ollama support
+    parser.add_argument("--local-llm", action="store_true", help="Use a local LLM via Ollama instead of the SAIA API.")
+    parser.add_argument("--ollama-model", type=str, default="qwen3:14b",
+                        help="The Ollama model tag to use for local LLM (e.g., 'llama3.1:8b'). Required if --local-llm.")
 
     # Register files for linking
     parser.add_argument("--register-root", type=str, default=str(Path("..") / "data" / "register"),
@@ -144,17 +145,35 @@ def main() -> None:
         print("No documents selected. Exiting.")
         return
 
-    export_root = (Path(__file__).parent / ".." / "data" / "pagexml").resolve()    
+    export_root = (Path(__file__).parent / ".." / "data" / "pagexml").resolve()  
     print(f"Reading PAGE-XML from: {export_root.resolve()}\n")
 
-    # 2) SAIA client
+    
+    # 2) LLM client (SAIA or Local Ollama)
     try:
-        saia_client = SaiaChatClient(timeout=args.llm_timeout)
+        if args.local_llm:
+            llm_client = OllamaChatClient(
+                model=args.ollama_model,
+                timeout=args.llm_timeout,
+                # NOTE: Using the found fixed IP for WSL stability
+                # usually http://localhost:11434
+                base_url="http://172.23.224.1:11434", 
+            )
+            print(f"Initialized Local Ollama client with model: {args.ollama_model}")
+        else:
+            llm_client = SaiaChatClient(timeout=args.llm_timeout)
+            print("Initialized Remote SAIA client.")
     except Exception as e:
-        print(f"Could not initialize SAIA client: {e}")
+        print(f"Could not initialize LLM client: {e}")
         sys.exit(1)
 
     # Register paths
+    work_files = {
+    "geschichtsquellen": str(Path("..") / "data" / "register" / "geschichtsquellen_werke.jsonl"),
+    "handschriftencensus": str(Path("..") / "data" / "register" / "handschriftencensus_werke.jsonl"),
+    # Todo Add vd16/17/18 paths here when created
+    }
+
     reg_root = Path(args.register_root)
     persons_xml = reg_root / "lassberg-persons.xml"
     places_xml = reg_root / "lassberg-places.xml"
@@ -191,7 +210,7 @@ def main() -> None:
         try:
             if ner_raw_path.exists() and not args.force_ner:
                 ner_bundle = _load_json(ner_raw_path)
-                print(f"  reusing NER: {ner_raw_path.name}")
+                print(f" reusing NER: {ner_raw_path.name}")
             else:
                 ner_bundle = run_ner_on_text_file(
                     txt_path=txt_path,
@@ -200,7 +219,7 @@ def main() -> None:
                     max_chars=args.max_chars,
                     chunk_chars=args.chunk_chars,
                     overlap_chars=args.overlap,
-                    flair_large_python=args.flair_large_python,  # needs external venv
+                    flair_large_python=args.flair_large_python, # needs external venv
                     verbose=True,
                 )
                 _write_json(res.source_dir, ner_raw_path.name, ner_bundle)
@@ -208,15 +227,16 @@ def main() -> None:
             print(f"- {doc.id} ({doc.title}): NER failed: {e}")
             continue
 
+
         # 5) LLM adjudication (reuse if exists and not forced)
         print("Sending to LLM.")
         try:
             if ner_final_path.exists() and not args.force_llm:
                 adjudicated = _load_json(ner_final_path)
-                print(f"  reusing adjudication: {ner_final_path.name}")
+                print(f" reusing adjudication: {ner_final_path.name}")
             else:
                 adjudicated = adjudicate_entities_with_client(
-                    client=saia_client,
+                    client=llm_client,
                     letter_id=res.letter_id,
                     title=f"Letter {res.letter_id} — {doc.title}",
                     letter_text=res.plain_text,
@@ -232,11 +252,14 @@ def main() -> None:
             print(f"- {doc.id} ({doc.title}): LLM adjudication failed: {e}")
             continue
 
-        # 6) Register linking (reuse if exists and not forced)
+        # 6) Register linking (Local Register Lookup with Checkpointing)
         try:
             if linked_path.exists() and not args.force_link:
-                print(f"  reusing links: {linked_path.name}")
+                # Reuse if exists
+                linked = _load_json(linked_path) 
+                print(f" reusing links: {linked_path.name}")
             else:
+                # Perform initial linking
                 linked = link_entities_with_llm(
                     adjudicated,
                     letter_text=txt_path.read_text(encoding="utf-8"),
@@ -245,31 +268,54 @@ def main() -> None:
                         "places_xml": str(places_xml),
                         "literature_xml": str(literature_xml),
                     },
-                    saia_client=saia_client,
+                    saia_client=llm_client,
                     prefer_register=True,
                     fuzzy_threshold=92,
                     context_window=60,
                     suggestions_path=str(res.source_dir / f"lassberg-letter-{res.letter_id}-register-suggestions.json"),
                 )
-                _write_json(res.source_dir, linked_path.name, linked)
+                # Write intermediate file (Step 6)
+                _write_json(res.source_dir, linked_path.name, linked) 
+                print("Finished initial linking. Checkpoint saved.")
         except Exception as e:
             print(f"- {doc.id} ({doc.title}): Linking failed: {e}")
             continue
 
-        # 7 look up if not in register
-        #ToDo: implement
+        # 7) External Lookup and Registration
+        try:
+            print("Running external lookup for unlinked entities.")
+            
+            linked_checkpoint = _load_json(linked_path) 
+            
+            final_linked = lookup_unlinked_entities(
+                linked_data=linked_checkpoint,
+                llm_client=llm_client,
+                local_work_files=work_files
+            )
+
+            # Write the final, fully linked and enriched JSON file
+            _write_json(res.source_dir, linked_path.name, final_linked)
+            print("Finished external lookup and linking. Final artifact saved.")
+            
+            # Update 'linked' for the Summary section below
+            linked = final_linked 
+            
+        except Exception as e:
+            print(f"- {doc.id} ({doc.title}): External lookup failed: {e}")
+            continue
+
 
         # Summary
         print(f"- {doc.id}: {doc.title}")
-        print(f"  letter: lassberg-letter-{res.letter_id}")
-        print(f"  pages:  {res.page_count}  lines: {res.line_count}")
-        print(f"  folder: {res.source_dir}")
+        print(f" letter: lassberg-letter-{res.letter_id}")
+        print(f" pages: {res.page_count} lines: {res.line_count}")
+        print(f" folder: {res.source_dir}")
         if not args.no_write:
-            print(f"  wrote : {res.source_dir}/lassberg-letter-{res.letter_id}-tei-lines.txt")
-            print(f"         {res.source_dir}/lassberg-letter-{res.letter_id}-plain.txt")
-        print(f"         {ner_raw_path}")
-        print(f"         {ner_final_path}")
-        print(f"         {linked_path}")
+            print(f" wrote : {res.source_dir}/lassberg-letter-{res.letter_id}-tei-lines.txt")
+            print(f"     {res.source_dir}/lassberg-letter-{res.letter_id}-plain.txt")
+        print(f"     {ner_raw_path}")
+        print(f"     {ner_final_path}")
+        print(f"     {linked_path}") 
         print("")
 
     print("Done.")

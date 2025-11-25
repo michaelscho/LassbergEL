@@ -28,18 +28,14 @@ import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-# Avoid TF codepaths (speeds up + avoids Windows TF issues)
 os.environ.setdefault("TRANSFORMERS_NO_TF", "1")
 
 from transformers import pipeline, AutoTokenizer
 import transformers
 
-# Flair base is run in THIS env
 from flair.models import SequenceTagger
 from flair.data import Sentence, Label
 
-
-# helpers
 
 SUFFIXES = {
     "hmbert": ".hf_hmbert.json",
@@ -77,7 +73,6 @@ def _read_text(path: Path, max_chars: Optional[int]) -> str:
     return txt[:max_chars] if (max_chars and len(txt) > max_chars) else txt
 
 def _repo_root() -> Path:
-    # assuming this file is in REPO_ROOT/src/ner.py
     return Path(__file__).resolve().parents[1]
 
 

@@ -5,7 +5,6 @@ from typing import List, Optional, Dict, Any
 import os
 import re
 import requests
-
 from InquirerPy import inquirer
 import config
 

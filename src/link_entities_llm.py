@@ -1,4 +1,3 @@
-# link_entities_llm.py
 from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
@@ -12,11 +11,9 @@ from pathlib import Path
 script_dir = Path(__file__).parent
 file_path_el = script_dir / '..' / 'prompts' / 'system_msg_entity_linking.txt'
 
-# 3. Open the file (resolve() fixes the ".." parts)
 with open(file_path_el.resolve(), 'r', encoding='utf-8') as f:
     SYSTEM_MSG = f.read()
 
-# Helper functions
 def _read_text(p: Path) -> str:
     return Path(p).read_text(encoding="utf-8")
 
@@ -44,7 +41,7 @@ def _top_k_by_similarity(query: str, candidates: List[Tuple[str, str, Dict[str, 
 
 @dataclass
 class RegisterEntry:
-    type: str           # "person" | "place" | "bibl"
+    type: str # "person" | "place" | "bibl"
     xml_id: str
     label: str
     ref: Optional[str]
@@ -66,16 +63,16 @@ def _load_persons_xml(path: Path) -> List[RegisterEntry]:
     for p in people:
         xml_id = _get_xml_id(p) or ""
         if not xml_id:
-            continue  # Skip people without an xml:id
+            continue
 
-        # Find ALL persName elements (includes aliases)
+        # Find persName elements including aliases
         all_persNames = p.findall(".//{*}persName")
 
         if not all_persNames:
             # id as fallback
             label = xml_id
             ref = p.get("ref")
-            out.append(RegisterEntry(kind="person", xml_id=xml_id, label=label, ref=ref, extra={}))
+            out.append(RegisterEntry(type="person", xml_id=xml_id, label=label, ref=ref, extra={}))
         else:
             # Create a separate entry for each persName
             for persName_el in all_persNames:
@@ -83,9 +80,9 @@ def _load_persons_xml(path: Path) -> List[RegisterEntry]:
                 if not label:
                     continue
 
-                # Get ref from the specific <persName> or fall back to the <person>
+                # Get ref from the specific persName or fall back to person
                 ref = persName_el.get("ref") or p.get("ref")
-                out.append(RegisterEntry(kind="person", xml_id=xml_id, label=label, ref=ref, extra={}))
+                out.append(RegisterEntry(type="person", xml_id=xml_id, label=label, ref=ref, extra={}))
     return out
 
 def _load_places_xml(path: Path) -> List[RegisterEntry]:
@@ -97,7 +94,7 @@ def _load_places_xml(path: Path) -> List[RegisterEntry]:
         placeName = pl.find(".//{*}placeName")
         label = _text(placeName) or xml_id
         ref = (placeName.get("ref") if placeName is not None else None) or pl.get("ref")
-        out.append(RegisterEntry(kind="place", xml_id=xml_id, label=label, ref=ref, extra={}))
+        out.append(RegisterEntry(type="place", xml_id=xml_id, label=label, ref=ref, extra={}))
     return out
 
 def _load_bibl_xml(path: Path) -> List[RegisterEntry]:
@@ -107,18 +104,18 @@ def _load_bibl_xml(path: Path) -> List[RegisterEntry]:
     for b in bibls:
         xml_id = _get_xml_id(b) or ""
         author = _text(b.find(".//{*}author"))
-        title  = _text(b.find(".//{*}title"))
-        idno   = _text(b.find(".//{*}idno"))
+        title = _text(b.find(".//{*}title"))
+        idno = _text(b.find(".//{*}idno"))
         label = (author + " " + title).strip() or title or xml_id
-        out.append(RegisterEntry(kind="bibl", xml_id=xml_id, label=label, ref=None, extra={"idno": idno}))
+        out.append(RegisterEntry(type="bibl", xml_id=xml_id, label=label, ref=None, extra={"idno": idno}))
     return out
 
 def load_registers(registers: Dict[str, str | Path], verbose: bool = True) -> Dict[str, List[RegisterEntry]]:
     persons = _load_persons_xml(Path(registers["persons_xml"]))
-    places  = _load_places_xml(Path(registers["places_xml"]))
-    bibls   = _load_bibl_xml(Path(registers["literature_xml"]))
+    places = _load_places_xml(Path(registers["places_xml"]))
+    bibls = _load_bibl_xml(Path(registers["literature_xml"]))
     if verbose:
-        print(f"  Registers loaded: persons={len(persons)}  places={len(places)}  bibl={len(bibls)}")
+        print(f"  Registers loaded: persons={len(persons)}  places={len(places)} bibl={len(bibls)}")
     return {"person": persons, "place": places, "bibl": bibls}
 
 
@@ -128,7 +125,7 @@ def _context_window(text: str, start: int, end: int, window: int = 60) -> str:
     s = max(0, start - window)
     e = min(len(text), end + window)
     left = text[s:start]
-    mid  = text[start:end]
+    mid = text[start:end]
     right= text[end:e]
     return f"...{left}[{mid}]{right}..."
 
@@ -139,13 +136,14 @@ def _build_llm_choice_prompt(entity: Dict[str, Any],
         "role": "system",
         "content": SYSTEM_MSG
     }
-    ent_txt = entity.get("text", "")
+    # Use the 'text' field which should have been replaced with the normalized version in link_one
+    ent_txt = entity.get("text", "") 
     label = entity.get("target_label") or entity.get("label") or ""
     choices = "\n".join([f"- {e.xml_id}: {e.label}" + (f" (ref: {e.ref})" if e.ref else "") for e in top_candidates]) or "(no candidates)"
     user_msg = {
         "role": "user",
         "content": (
-            f"ENTITY: {ent_txt}\n"
+            f"ENTITY: {ent_txt}\n" 
             f"LABEL: {label}\n"
             f"CONTEXT: {context}\n\n"
             f"CANDIDATES (xml_id: label):\n{choices}\n\n"
@@ -178,7 +176,6 @@ LABEL_MAP = {
 }
 
 def _extract_label(ent: Dict[str, Any]) -> str:
-    # LLM may use "target_label" or "label"
     raw = ent.get("target_label") or ent.get("label") or ""
     return raw
 
@@ -202,19 +199,13 @@ def link_entities_with_llm(
 ) -> Dict[str, Any]:
     """
     Enrich adjudicated entities with register links, keeps start/end.
-
-    Input expects:
-      {
-        "entities": [ { "text":..., "target_label":..., "char_span":{"start":..,"end":..}, ... }, ... ],
-        "added_by_llm": [ ... ]   # optional
-      }
     """
     # normalize input
     entities: List[Dict[str, Any]] = []
     added: List[Dict[str, Any]] = []
     if isinstance(adjudicated, dict):
         entities = list(adjudicated.get("entities") or [])
-        added    = list(adjudicated.get("added_by_llm") or [])
+        added = list(adjudicated.get("added_by_llm") or [])
     elif isinstance(adjudicated, list):
         entities = adjudicated
     else:
@@ -226,12 +217,14 @@ def link_entities_with_llm(
     # prebuild candidates
     banks: Dict[str, List[Tuple[str, str, Dict[str, Any]]]] = {
         "person": [(e.label, e.xml_id, {"ref": e.ref, **e.extra, "kind": "person"}) for e in regs.get("person", [])],
-        "place":  [(e.label, e.xml_id, {"ref": e.ref, **e.extra, "kind": "place"})  for e in regs.get("place", [])],
-        "bibl":   [(e.label, e.xml_id, {"ref": e.ref, **e.extra, "kind": "bibl"})   for e in regs.get("bibl", [])],
+        "place": [(e.label, e.xml_id, {"ref": e.ref, **e.extra, "kind": "place"}) for e in regs.get("place", [])],
+        "bibl": [(e.label, e.xml_id, {"ref": e.ref, **e.extra, "kind": "bibl"}) for e in regs.get("bibl", [])],
     }
 
     def link_one(ent: Dict[str, Any]) -> Dict[str, Any]:
-        text = ent.get("text", "")
+        
+        text_to_search = ent.get("normalized_text", ent.get("text", "")) 
+
         raw_label = _extract_label(ent)
         target_kind = LABEL_MAP.get(raw_label, "")
         start, end = _extract_span(ent)
@@ -243,14 +236,12 @@ def link_entities_with_llm(
             }
             return ent
 
-        # fuzzy filter
-        top_scored = _top_k_by_similarity(text, banks[target_kind], k=max(8, topk_for_llm))
+        top_scored = _top_k_by_similarity(text_to_search, banks[target_kind], k=max(8, topk_for_llm))
         considered = [
             {"xml_id": xml_id, "label": lab, "score": float(score), **payload}
             for score, (lab, xml_id, payload) in top_scored
         ]
 
-        # if fuzzy match is cofident
         if prefer_register and top_scored and top_scored[0][0] >= float(fuzzy_threshold):
             best_score, (lab, xml_id, payload) = top_scored[0]
             ent["links"] = {
@@ -262,13 +253,16 @@ def link_entities_with_llm(
         # otherwise ask LLM if available
         if saia_client is not None and considered:
             ctx = _context_window(letter_text, start, end, context_window) if start >= 0 and end >= 0 else ""
-            # Build objects for the prompt
+
+            temp_entity = dict(ent)
+            temp_entity['text'] = text_to_search
+            
             prompt_cands = []
             for score, (lab, xml_id, payload) in top_scored[:topk_for_llm]:
-                prompt_cands.append(RegisterEntry(kind=target_kind, xml_id=xml_id, label=lab, ref=payload.get("ref"), extra={}))
+                prompt_cands.append(RegisterEntry(type=target_kind, xml_id=xml_id, label=lab, ref=payload.get("ref"), extra={}))
 
             try:
-                pick, conf = _ask_llm_pick(saia_client, ent, ctx, prompt_cands)
+                pick, conf = _ask_llm_pick(saia_client, temp_entity, ctx, prompt_cands) 
             except Exception as e:
                 ent["links"] = {
                     "register": None,
@@ -288,7 +282,6 @@ def link_entities_with_llm(
                 }
                 return ent
 
-        # no link
         ent["links"] = {
             "register": None,
             "decision": {"method": "none", "score": 0.0, "candidates_considered": considered},
@@ -296,12 +289,16 @@ def link_entities_with_llm(
         return ent
 
     enriched_entities = [link_one(dict(e)) for e in entities]
-    enriched_added    = [link_one(dict(e)) for e in added]
-
+    enriched_added = [link_one(dict(e)) for e in added]
+    
     result: Dict[str, Any] = dict(adjudicated) if isinstance(adjudicated, dict) else {"entities": enriched_entities}
     result["entities"] = enriched_entities
     if added:
         result["added_by_llm"] = enriched_added
+        
+    # Read the model name from the client if available
+    linking_model = getattr(saia_client, "model", "unknown-llm-model")
+    result["linking_model"] = linking_model
 
     if suggestions_path:
         Path(suggestions_path).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
